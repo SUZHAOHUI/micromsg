@@ -1,0 +1,105 @@
+2017-08-30 17:17:52 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-30 17:17:52 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 17:17:54 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 17:17:54 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 17:21:14 views.py[line:30] INFO SELECT name,idcard,userid FROM user where tel='13810326774' and password='jIeBaH2JLzw='
+2017-08-30 17:21:14 views.py[line:66] INFO appkey=wywawj, username=李晓国, idcard=111,appid=+ZOLLJ/EFIQEVIWM,mode=ax
+2017-08-30 17:21:14 views.py[line:81] INFO login return response info:{'cardno': '111', 'result': 0, 'appkid': '+ZOLLJ/EFIQEVIWM', 'aname': '李晓国', 'appkey': 'wywawj', 'ifpay': 0, 'token': 'eyJhbGciOiJIUzI1NiIsImV4cCI6MTUwNDEwMjg3NCwiaWF0IjoxNTA0MDg0ODc0fQ.IntcIm1zaXNkblwiOiBcIjEzODEwMzI2Nzc0XCIsIFwiYXBwaWRcIjogXCIrWk9MTEovRUZJUUVWSVdNXCIsIFwiaWRjYXJkXCI6IFwiMTExXCIsIFwiYXBwa2V5XCI6IFwid3l3YXdqXCIsIFwibW9kZVwiOiBcImF4XCIsIFwidXNlcm5hbWVcIjogXCJcXHU2NzRlXFx1NjY1M1xcdTU2ZmRcIiwgXCJ1c2VyaWRcIjogM30i.EUoheKAUoKnLtO2NjMkjgsllb1PLw7E1F9lxHmUy968', 'subs_model': 'ax'}
+2017-08-30 17:21:14 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:21:14] "POST /api/login.do HTTP/1.1" 200 -
+2017-08-30 19:00:37 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:00:46 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:01:01 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:01:01 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:01:35 views.py[line:601] INFO {'mode': 'ax', 'appkey': 'wywawj', 'userid': 3, 'idcard': '111', 'appid': '+ZOLLJ/EFIQEVIWM', 'msisdn': '13810326774', 'username': '李晓国'}
+2017-08-30 19:01:35 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:01:35] "POST /api/sendSms.do HTTP/1.1" 500 -
+2017-08-30 19:03:40 views.py[line:601] INFO {'mode': 'ax', 'appkey': 'wywawj', 'userid': 3, 'idcard': '111', 'appid': '+ZOLLJ/EFIQEVIWM', 'msisdn': '13810326774', 'username': '李晓国'}
+2017-08-30 19:03:40 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:03:40] "POST /api/sendSms.do HTTP/1.1" 500 -
+2017-08-30 19:05:12 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:05:12 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:05:16 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:05:16 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:05:32 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-30 19:05:32 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:05:33 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:05:33 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:05:45 views.py[line:601] INFO {'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '111', 'mode': 'ax', 'username': '李晓国', 'msisdn': '13810326774', 'appkey': 'wywawj', 'userid': 3}
+2017-08-30 19:05:45 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:05:45] "POST /api/sendSms.do HTTP/1.1" 500 -
+2017-08-30 19:17:31 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:17:31 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:17:41 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:17:41 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:21:00 views.py[line:599] INFO aaa
+2017-08-30 19:21:00 views.py[line:602] INFO {'username': '李晓国', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '111', 'msisdn': '13810326774', 'userid': 3, 'appkey': 'wywawj'}
+2017-08-30 19:21:00 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:21:00] "POST /api/sendSms.do HTTP/1.1" 500 -
+2017-08-30 19:22:23 views.py[line:599] INFO aaa
+2017-08-30 19:22:23 views.py[line:602] INFO {'username': '李晓国', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '111', 'msisdn': '13810326774', 'userid': 3, 'appkey': 'wywawj'}
+2017-08-30 19:22:23 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:22:23] "POST /api/sendSms.do HTTP/1.1" 500 -
+2017-08-30 19:23:01 views.py[line:599] INFO aaa
+2017-08-30 19:23:01 views.py[line:602] INFO {'username': '李晓国', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '111', 'msisdn': '13810326774', 'userid': 3, 'appkey': 'wywawj'}
+2017-08-30 19:23:01 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:23:01] "POST /api/sendSms.do HTTP/1.1" 500 -
+2017-08-30 19:24:16 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:24:16 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:24:17 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:24:17 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:24:18 views.py[line:601] INFO {'appkey': 'wywawj', 'username': '李晓国', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'userid': 3, 'msisdn': '13810326774', 'idcard': '111'}
+2017-08-30 19:24:18 views.py[line:610] INFO 13810326774
+2017-08-30 19:24:18 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:24:18] "POST /api/sendSms.do HTTP/1.1" 500 -
+2017-08-30 19:25:12 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:25:12 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:25:14 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:25:14 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:25:20 views.py[line:601] INFO {'appid': '+ZOLLJ/EFIQEVIWM', 'userid': 3, 'username': '李晓国', 'mode': 'ax', 'msisdn': '13810326774', 'appkey': 'wywawj', 'idcard': '111'}
+2017-08-30 19:25:20 views.py[line:610] INFO 13810326774
+2017-08-30 19:25:20 views.py[line:630] INFO acms=13100501490,starttime=2017-8-14 11:45:28,content=very code is 13810326774 18511890947,peer_no=18511890947
+2017-08-30 19:25:20 connectionpool.py[line:213] INFO Starting new HTTP connection (1): 101.200.221.216
+2017-08-30 19:25:20 connectionpool.py[line:395] DEBUG "POST /csms HTTP/1.1" 200 63
+2017-08-30 19:25:20 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:25:20] "POST /api/sendSms.do HTTP/1.1" 200 -
+2017-08-30 19:35:51 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:35:51 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:35:55 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:35:55 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:39:59 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:40:00 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:40:01 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:40:01 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:40:10 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:40:11 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:40:12 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:40:12 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:41:41 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:41:41 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:46:36 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-30 19:46:37 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:46:38 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:46:38 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:47:08 views.py[line:601] INFO {'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '111', 'userid': 3, 'appkey': 'wywawj', 'msisdn': '13810326774', 'username': '李晓国'}
+2017-08-30 19:47:08 views.py[line:610] INFO 13810326774
+2017-08-30 19:47:08 views.py[line:630] INFO acms=13100501490,starttime=2017-8-14 11:45:28,content=very code is 13810326774 18511890947,peer_no=18511890947
+2017-08-30 19:47:08 connectionpool.py[line:213] INFO Starting new HTTP connection (1): 101.200.221.216
+2017-08-30 19:47:08 connectionpool.py[line:395] DEBUG "POST /csms HTTP/1.1" 200 63
+2017-08-30 19:47:08 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:47:08] "POST /api/sendSms.do HTTP/1.1" 200 -
+2017-08-30 19:50:32 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 19:50:32 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 19:50:34 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 19:50:34 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 19:50:58 views.py[line:601] INFO {'idcard': '111', 'appid': '+ZOLLJ/EFIQEVIWM', 'msisdn': '13810326774', 'mode': 'ax', 'userid': 3, 'username': '李晓国', 'appkey': 'wywawj'}
+2017-08-30 19:50:58 views.py[line:610] INFO 13810326774
+2017-08-30 19:50:58 views.py[line:630] INFO acms=13100501490,starttime=2017-8-14 11:45:28,content=very code is 13810326774 18511890947,peer_no=18511890947
+2017-08-30 19:50:58 connectionpool.py[line:213] INFO Starting new HTTP connection (1): 101.200.221.216
+2017-08-30 19:50:58 connectionpool.py[line:395] DEBUG "POST /csms HTTP/1.1" 200 63
+2017-08-30 19:50:59 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 19:50:59] "POST /api/sendSms.do HTTP/1.1" 200 -
+2017-08-30 20:00:36 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 20:00:37 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 20:00:42 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 20:00:42 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 20:18:35 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 20:18:35 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 20:18:46 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 20:18:46 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 20:19:12 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-30 20:19:12 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-30 20:19:14 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-30 20:19:14 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-30 20:19:49 views.py[line:653] INFO {'username': '李晓国', 'idcard': '111', 'userid': 3, 'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13810326774', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-08-30 20:19:49 views.py[line:662] INFO 13810326774
+2017-08-30 20:19:49 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 20:19:49] "POST /api/querySms.do HTTP/1.1" 200 -

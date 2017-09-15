@@ -1,0 +1,24 @@
+2017-09-10 21:35:59 base.py[line:1273] ERROR Error closing cursor
+Traceback (most recent call last):
+  File "D:\Python35\lib\site-packages\sqlalchemy\engine\base.py", line 1269, in _safe_close_cursor
+    cursor.close()
+  File "D:\Python35\lib\site-packages\pymysql\cursors.py", line 57, in close
+    while self.nextset():
+  File "D:\Python35\lib\site-packages\pymysql\cursors.py", line 103, in nextset
+    return self._nextset(False)
+  File "D:\Python35\lib\site-packages\pymysql\cursors.py", line 98, in _nextset
+    conn.next_result(unbuffered=unbuffered)
+  File "D:\Python35\lib\site-packages\pymysql\connections.py", line 839, in next_result
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python35\lib\site-packages\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "D:\Python35\lib\site-packages\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python35\lib\site-packages\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "D:\Python35\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python35\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'ep0.empl_id' in 'where clause'")
+2017-09-10 21:36:34 dimission.py[line:90] INFO update personal success!

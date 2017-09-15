@@ -1,0 +1,486 @@
+2017-08-24 11:25:04 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-24 11:25:04 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:25:05 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:25:05 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:26:58 views.py[line:676] INFO ImmutableMultiDict([])
+2017-08-24 11:26:58 views.py[line:677] INFO b'\n<xml>\n  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>\n  <attach><![CDATA[\xd6\xa7\xb8\xb6\xb2\xe2\xca\xd4]]></attach>\n  <bank_type><![CDATA[CFT]]></bank_type>\n  <fee_type><![CDATA[CNY]]></fee_type>\n  <is_subscribe><![CDATA[Y]]></is_subscribe>\n  <mch_id><![CDATA[10000100]]></mch_id>\n  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>\n  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>\n  <out_trade_no><![CDATA[1409811653]]></out_trade_no>\n  <result_code><![CDATA[SUCCESS]]></result_code>\n  <return_code><![CDATA[SUCCESS]]></return_code>\n  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>\n  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>\n  <time_end><![CDATA[20140903131540]]></time_end>\n  <total_fee>1</total_fee>\n  <trade_type><![CDATA[JSAPI]]></trade_type>\n  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>\n</xml> \n'
+2017-08-24 11:26:58 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:26:58] "POST /api/notify HTTP/1.1" 500 -
+2017-08-24 11:29:49 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 11:29:49 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:29:51 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:29:51 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:29:55 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:29:55] "POST /api/notify HTTP/1.1" 500 -
+2017-08-24 11:30:38 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 11:30:38 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:30:40 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:30:40 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:30:41 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:30:41] "POST /api/notify HTTP/1.1" 500 -
+2017-08-24 11:31:04 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:31:04] "POST /api/notify HTTP/1.1" 500 -
+2017-08-24 11:32:01 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 11:32:02 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:32:03 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:32:03 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:32:07 views.py[line:671] INFO Connection: keep-alive
+Accept: */*
+Host: localhost:5000
+Content-Length: 856
+Accept-Encoding: gzip, deflate
+Content-Type: 
+User-Agent: python-requests/2.10.0
+
+
+2017-08-24 11:32:07 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:32:07] "POST /api/notify HTTP/1.1" 200 -
+2017-08-24 11:32:58 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 11:32:58 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:32:59 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:32:59 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:33:02 views.py[line:671] INFO Connection: keep-alive
+User-Agent: python-requests/2.10.0
+Host: localhost:5000
+Content-Length: 856
+Content-Type: 
+Accept-Encoding: gzip, deflate
+Accept: */*
+
+
+2017-08-24 11:33:02 views.py[line:679] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 11:33:02 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:33:02] "POST /api/notify HTTP/1.1" 200 -
+2017-08-24 11:33:30 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 11:33:30 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:33:31 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:33:31 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:33:35 views.py[line:671] INFO Content-Type: 
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: localhost:5000
+Content-Length: 856
+Accept: */*
+User-Agent: python-requests/2.10.0
+
+
+2017-08-24 11:33:35 views.py[line:677] INFO {}
+2017-08-24 11:33:35 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:33:35] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 11:33:43 views.py[line:671] INFO Content-Type: 
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: localhost:5000
+Content-Length: 856
+Accept: */*
+User-Agent: python-requests/2.10.0
+
+
+2017-08-24 11:33:43 views.py[line:677] INFO {}
+2017-08-24 11:33:43 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:33:43] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 11:34:07 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 11:34:07 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:34:08 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:34:08 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:34:10 views.py[line:671] INFO Host: localhost:5000
+Connection: keep-alive
+Content-Type: 
+Accept: */*
+User-Agent: python-requests/2.10.0
+Accept-Encoding: gzip, deflate
+Content-Length: 856
+
+
+2017-08-24 11:34:10 views.py[line:677] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 11:34:10 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:34:10] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 11:34:44 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 11:34:44 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:34:46 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:34:46 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:34:46 views.py[line:678] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 11:34:46 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:34:46] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 11:35:28 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 11:35:29 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:35:30 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:35:30 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:55:31 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\get_prepay_id.py', reloading
+2017-08-24 11:55:32 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:55:34 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:55:34 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:56:14 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\get_prepay_id.py', reloading
+2017-08-24 11:56:14 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:56:16 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:56:16 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:58:43 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 11:58:43 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:58:46 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:58:46 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:58:57 views.py[line:679] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 11:58:58 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:58:58] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 11:59:54 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\common.py', reloading
+2017-08-24 11:59:54 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 11:59:55 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 11:59:55 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 11:59:58 views.py[line:679] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 11:59:58 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 11:59:58] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 12:01:20 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 12:01:20 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 12:01:22 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 12:01:22 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 12:01:23 views.py[line:679] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 12:01:23 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 12:01:23] "GET /api/notify HTTP/1.1" 500 -
+2017-08-24 12:02:14 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 12:02:14 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 12:02:15 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 12:02:15 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 12:02:24 views.py[line:679] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 12:02:24 common.py[line:186] INFO appid=wx2421b1c4370ec43b&attach=÷ß∏∂≤‚ ‘&bank_type=CFT&fee_type=CNY&is_subscribe=Y&mch_id=10000100&nonce_str=5d2b6c2a8db53831f7eda20af46e531c&openid=oUpF8uMEb4qRXf22hE3X68TekukE&out_trade_no=1409811653&result_code=SUCCESS&return_code=SUCCESS&sub_mch_id=10000100&time_end=20140903131540&total_fee=1&trade_type=JSAPI&transaction_id=1004400740201409030005092168&key=a8b0248258c0110fd8895d7466b8c579
+2017-08-24 12:02:24 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 12:02:24] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 12:03:02 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 12:03:02 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 12:03:04 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 12:03:04 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 12:03:05 views.py[line:679] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 12:03:05 common.py[line:186] INFO appid=wx2421b1c4370ec43b&attach=÷ß∏∂≤‚ ‘&bank_type=CFT&fee_type=CNY&is_subscribe=Y&mch_id=10000100&nonce_str=5d2b6c2a8db53831f7eda20af46e531c&openid=oUpF8uMEb4qRXf22hE3X68TekukE&out_trade_no=1409811653&result_code=SUCCESS&return_code=SUCCESS&sub_mch_id=10000100&time_end=20140903131540&total_fee=1&trade_type=JSAPI&transaction_id=1004400740201409030005092168&key=a8b0248258c0110fd8895d7466b8c579
+2017-08-24 12:03:05 views.py[line:683] INFO sign_r=78BACAC388898AC515F0CF371947915B,sign_l=B552ED6B279343CB493C5DD0D78AB241
+2017-08-24 12:03:05 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 12:03:05] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 12:04:31 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 12:04:31 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 12:04:45 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-24 12:04:45 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 12:04:47 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 12:04:47 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 12:04:48 views.py[line:679] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 12:04:48 common.py[line:186] INFO appid=wx2421b1c4370ec43b&attach=÷ß∏∂≤‚ ‘&bank_type=CFT&fee_type=CNY&is_subscribe=Y&mch_id=10000100&nonce_str=5d2b6c2a8db53831f7eda20af46e531c&openid=oUpF8uMEb4qRXf22hE3X68TekukE&out_trade_no=1409811653&result_code=SUCCESS&return_code=SUCCESS&sub_mch_id=10000100&time_end=20140903131540&total_fee=1&trade_type=JSAPI&transaction_id=1004400740201409030005092168&key=a8b0248258c0110fd8895d7466b8c579
+2017-08-24 12:04:48 views.py[line:683] INFO sign_r=78BACAC388898AC515F0CF371947915B,sign_l=B552ED6B279343CB493C5DD0D78AB241
+2017-08-24 12:04:48 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 12:04:48] "GET /api/notify HTTP/1.1" 500 -
+2017-08-24 12:05:56 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 12:05:56 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:37:31 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-24 13:37:31 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:37:33 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:37:33 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:37:43 views.py[line:679] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 13:37:43 common.py[line:186] INFO appid=wx2421b1c4370ec43b&attach=÷ß∏∂≤‚ ‘&bank_type=CFT&fee_type=CNY&is_subscribe=Y&mch_id=10000100&nonce_str=5d2b6c2a8db53831f7eda20af46e531c&openid=oUpF8uMEb4qRXf22hE3X68TekukE&out_trade_no=1409811653&result_code=SUCCESS&return_code=SUCCESS&sub_mch_id=10000100&time_end=20140903131540&total_fee=1&trade_type=JSAPI&transaction_id=1004400740201409030005092168&key=a8b0248258c0110fd8895d7466b8c579
+2017-08-24 13:37:43 views.py[line:683] INFO sign_r=78BACAC388898AC515F0CF371947915B,sign_l=B552ED6B279343CB493C5DD0D78AB241
+2017-08-24 13:37:43 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 13:37:43] "GET /api/notify HTTP/1.1" 500 -
+2017-08-24 13:38:11 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 13:38:11 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:38:12 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:38:12 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:38:13 views.py[line:679] INFO 
+<xml>
+  <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+  <attach><![CDATA[÷ß∏∂≤‚ ‘]]></attach>
+  <bank_type><![CDATA[CFT]]></bank_type>
+  <fee_type><![CDATA[CNY]]></fee_type>
+  <is_subscribe><![CDATA[Y]]></is_subscribe>
+  <mch_id><![CDATA[10000100]]></mch_id>
+  <nonce_str><![CDATA[5d2b6c2a8db53831f7eda20af46e531c]]></nonce_str>
+  <openid><![CDATA[oUpF8uMEb4qRXf22hE3X68TekukE]]></openid>
+  <out_trade_no><![CDATA[1409811653]]></out_trade_no>
+  <result_code><![CDATA[SUCCESS]]></result_code>
+  <return_code><![CDATA[SUCCESS]]></return_code>
+  <sign><![CDATA[B552ED6B279343CB493C5DD0D78AB241]]></sign>
+  <sub_mch_id><![CDATA[10000100]]></sub_mch_id>
+  <time_end><![CDATA[20140903131540]]></time_end>
+  <total_fee>1</total_fee>
+  <trade_type><![CDATA[JSAPI]]></trade_type>
+  <transaction_id><![CDATA[1004400740201409030005092168]]></transaction_id>
+</xml> 
+
+2017-08-24 13:38:13 common.py[line:186] INFO appid=wx2421b1c4370ec43b&attach=÷ß∏∂≤‚ ‘&bank_type=CFT&fee_type=CNY&is_subscribe=Y&mch_id=10000100&nonce_str=5d2b6c2a8db53831f7eda20af46e531c&openid=oUpF8uMEb4qRXf22hE3X68TekukE&out_trade_no=1409811653&result_code=SUCCESS&return_code=SUCCESS&sub_mch_id=10000100&time_end=20140903131540&total_fee=1&trade_type=JSAPI&transaction_id=1004400740201409030005092168&key=a8b0248258c0110fd8895d7466b8c579
+2017-08-24 13:38:13 views.py[line:683] INFO sign_r=78BACAC388898AC515F0CF371947915B,sign_l=B552ED6B279343CB493C5DD0D78AB241
+2017-08-24 13:38:13 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 13:38:13] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 13:38:44 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 13:38:44 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:38:46 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:38:46 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:39:22 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 13:39:22 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:39:24 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:39:24 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:42:04 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 13:42:05 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:42:06 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:42:06 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:46:28 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\database.py', reloading
+2017-08-24 13:46:28 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:46:30 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:46:30 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:47:24 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 13:47:24 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:47:26 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:47:26 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:48:51 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 13:48:51 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:48:53 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:48:53 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:50:58 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 13:50:58 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:50:59 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:50:59 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:51:18 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 13:51:18 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:51:20 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:51:20 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:52:05 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 13:52:05 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:52:06 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:52:06 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:55:11 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 13:55:12 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 13:55:14 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 13:55:14 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 13:58:31 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 13:58:31 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 16:10:03 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-24 16:10:03 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 16:10:04 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 16:10:04 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 16:14:30 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 16:14:30 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 16:14:32 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 16:14:32 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 16:16:11 views.py[line:679] INFO 
+ <xml><appid><![CDATA[wxbc184c9f0e379d87]]></appid>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[N]]></is_subscribe>
+<mch_id><![CDATA[1265774901]]></mch_id>
+<nonce_str><![CDATA[HVB9DVR9PA0AEQFP2/RNNMZM2MEHMSKN]]></nonce_str>
+<openid><![CDATA[oljbv0FH-sUrJkELRJL0ZCIb6xJY]]></openid>
+<out_trade_no><![CDATA[BD450CBD81034E58B45BBEC383954694]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[00D30EBB8704080FA6C526834F50B5A6]]></sign>
+<time_end><![CDATA[20170824151144]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4000732001201708247990501819]]></transaction_id>
+</xml>
+
+2017-08-24 16:16:11 common.py[line:186] INFO appid=wxbc184c9f0e379d87&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=N&mch_id=1265774901&nonce_str=HVB9DVR9PA0AEQFP2/RNNMZM2MEHMSKN&openid=oljbv0FH-sUrJkELRJL0ZCIb6xJY&out_trade_no=BD450CBD81034E58B45BBEC383954694&result_code=SUCCESS&return_code=SUCCESS&time_end=20170824151144&total_fee=1&trade_type=JSAPI&transaction_id=4000732001201708247990501819&key=a8b0248258c0110fd8895d7466b8c579
+2017-08-24 16:16:11 views.py[line:683] INFO sign_r=00D30EBB8704080FA6C526834F50B5A6,sign_l=00D30EBB8704080FA6C526834F50B5A6
+2017-08-24 16:16:11 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 16:16:11] "GET /api/notify HTTP/1.1" 200 -
+2017-08-24 16:20:14 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 16:20:14 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 16:20:16 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 16:20:16 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 16:20:52 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-08-24 16:20:52 bind_views.py[line:409] ERROR eval() arg 1 must be a string, bytes or code object
+2017-08-24 16:20:52 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 16:20:52] "GET /api/queryTopup.do HTTP/1.1" 200 -
+2017-08-24 16:21:43 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 16:21:43 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 16:21:44 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 16:21:44 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 16:21:53 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 16:21:54 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 16:21:55 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 16:21:55 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 16:22:00 bind_views.py[line:434] INFO [{"amt": 1, "state": "timeout", "topup_date": "2017-08-24 16:09:53", "acms": "13100504065"}, {"amt": 1, "state": "timeout", "topup_date": "2017-08-24 16:17:08", "acms": "13100504065"}]
+2017-08-24 16:22:00 _internal.py[line:87] INFO 127.0.0.1 - - [24/Aug/2017 16:22:00] "GET /api/queryTopup.do HTTP/1.1" 200 -
+2017-08-24 16:22:22 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 16:22:22 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 16:22:24 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 16:22:24 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 16:25:26 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\bind_views.py', reloading
+2017-08-24 16:25:26 _internal.py[line:87] INFO  * Restarting with stat
+2017-08-24 16:25:28 _internal.py[line:87] WARNING  * Debugger is active!
+2017-08-24 16:25:28 _internal.py[line:87] INFO  * Debugger pin code: 215-401-245
+2017-08-24 16:28:11 _internal.py[line:87] INFO  * Detected change in 'D:\\p_ac\\micromsg\\views.py', reloading
+2017-08-24 16:28:11 _internal.py[line:87] INFO  * Restarting with stat
