@@ -3,7 +3,7 @@ from database import app
 from views import  *
 from bind_views import *
 
-# logfile='/data/log/micromsg/mmi.log'
+#logfile='/data/log/micromsg/mmi.log'
 logfile='mmi.log'
 
 # f_log_concurrent(logfile)
@@ -29,14 +29,14 @@ app.add_url_rule('/api/getCityInfo.do',view_func=get_city_list,methods=['GET','P
 app.add_url_rule('/api/setAxBind.do',view_func=ax_bind,methods=['GET','POST'])
 app.add_url_rule('/api/unAxBind.do',view_func=ax_unbind,methods=['GET','POST'])
 app.add_url_rule('/api/getWeiXinPublic.do',view_func=get_wx_p,methods=['GET','POST'])
-app.add_url_rule('/api/notify',view_func=weixin_notify,methods=['GET','POST'])
+app.add_url_rule('/api/notifyHWH',view_func=weixin_notify,methods=['GET','POST'])
 app.add_url_rule('/api/vCallReq.do',view_func=vcall_req,methods=['GET','POST'])
 app.add_url_rule('/api/getOwerAcms.do',view_func=get_owner_acms,methods=['GET','POST'])
 app.add_url_rule('/api/queryTopup.do',view_func=query_topup,methods=['GET','POST'])
 app.add_url_rule('/api/getPrice.do',view_func=get_price,methods=['GET','POST'])
 app.add_url_rule('/api/querySms.do',view_func=query_sms,methods=['GET','POST'])
-
-
+app.add_url_rule('/api/userRegister.do',view_func=user_register,methods=['GET','POST'])
+app.add_url_rule('/api/companyRegister.do',view_func=company_register,methods=['GET','POST'])
 
 if __name__ == '__main__':
     app.run(debug=True)

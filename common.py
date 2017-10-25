@@ -102,7 +102,7 @@ def f_bind(appkey,prtms,acms,cardno,appid):
               "subts": "",
               "producttype": "4",
               "name": "李新会",
-              "anucodecalled": "218",
+              # "anucodecalled": "218",
               "cardtype": "1",
               "callrecording": "1",
               "smsmtchannel": "3",
@@ -167,7 +167,7 @@ def verify_auth_token(token):
         return None
     return data
 
-def pay_sign(dict1, secret='a8b0248258c0110fd8895d7466b8c579'):
+def pay_sign(dict1, secret='6XlblatoOeCriipz7lkAgiSH2RI0rk8k'):
     if isinstance(dict1, dict):
         list1 = sorted(dict1.items(),key=lambda x:x[0])
         str1=[]

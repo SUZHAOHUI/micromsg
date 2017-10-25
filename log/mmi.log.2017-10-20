@@ -1,0 +1,490 @@
+2017-10-19 10:32:10 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 10:32:22 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 10:32:22 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 10:32:22 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 10:34:30 bind_views.py[line:15] INFO {'Hm_lvt_080836300300be57b7f34f4b3e97d911': '1507889092'}
+2017-10-19 10:34:31 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:34:31] "GET / HTTP/1.1" 200 -
+2017-10-19 10:34:31 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:34:31] "GET /favicon.ico HTTP/1.1" 404 -
+2017-10-19 10:34:55 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 10:34:55 bind_views.py[line:23] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 10:34:55 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:34:55] "GET /api/getCityNumber.do HTTP/1.1" 200 -
+2017-10-19 10:35:30 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 10:35:30 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 10:35:30 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:35:30] "GET /api/getContacts.do? HTTP/1.1" 200 -
+2017-10-19 10:36:08 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 10:36:08 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 10:36:08 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:36:08] "GET /api/getContacts.do?phone=%22138%22 HTTP/1.1" 200 -
+2017-10-19 10:37:15 views.py[line:136] INFO SELECT name,idcard,userid FROM user where tel='13521456883' and password='jIeBaH2JLzw='
+2017-10-19 10:37:15 views.py[line:172] INFO appkey=wywawj, username=金烁, idcard=0,appid=+ZOLLJ/EFIQEVIWM,mode=ax
+2017-10-19 10:37:15 views.py[line:187] INFO login return response info:{'cardno': '0', 'aname': '金烁', 'subs_model': 'ax', 'token': 'eyJpYXQiOjE1MDgzODA2MzUsImV4cCI6MTUwODM5ODYzNSwiYWxnIjoiSFMyNTYifQ.IntcImFwcGlkXCI6IFwiK1pPTExKL0VGSVFFVklXTVwiLCBcIm1vZGVcIjogXCJheFwiLCBcIm1zaXNkblwiOiBcIjEzNTIxNDU2ODgzXCIsIFwidXNlcmlkXCI6IDk1MDU1MCwgXCJ1c2VybmFtZVwiOiBcIlxcdTkxZDFcXHU3MGMxXCIsIFwiYXBwa2V5XCI6IFwid3l3YXdqXCIsIFwiaWRjYXJkXCI6IFwiMFwifSI.4or105b1vNo3gMewYytjQnjlbrJIjtk_mGF8KTQMS88', 'result': 0, 'appkey': 'wywawj', 'ifpay': 0, 'appkid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 10:37:15 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:37:15] "GET /api/login.do?prtms=13521456883&&apwd=123456 HTTP/1.1" 200 -
+2017-10-19 10:37:25 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 10:37:25 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 10:37:25 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:37:25] "GET /api/getContacts.do?phone=%22138%22 HTTP/1.1" 200 -
+2017-10-19 10:38:33 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 10:38:33 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 10:38:33 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:38:33] "GET /api/getContacts.do?phone=138&&letter=456 HTTP/1.1" 200 -
+2017-10-19 10:38:59 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 10:39:04 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 10:39:05 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:39:05] "GET /api/getContacts.do?phone=138&&letter=456 HTTP/1.1" 200 -
+2017-10-19 10:56:17 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 10:56:17 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 10:56:17 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 10:56:17] "GET /api/getContacts.do?phone=123&letter=456 HTTP/1.1" 200 -
+2017-10-19 11:20:20 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 11:20:30 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 11:20:30 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 11:20:30 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 11:21:20 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 11:21:20 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 11:21:21 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:21:21] "GET /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 11:21:40 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 11:21:40 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 11:21:41 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:21:41] "GET /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 11:22:22 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 11:22:22 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 11:22:22 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:22:22] "POST /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 11:22:44 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 11:22:44 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 11:22:44 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:22:44] "POST /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 11:23:57 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:23:57] "POST /api/login.do HTTP/1.1" 500 -
+2017-10-19 11:26:06 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 11:26:06 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 11:26:06 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:26:06] "POST /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 11:26:51 views.py[line:136] INFO SELECT name,idcard,userid FROM user where tel='13521456883' and password='jIeBaH2JLzw='
+2017-10-19 11:26:51 views.py[line:172] INFO appkey=wywawj, username=金烁, idcard=0,appid=+ZOLLJ/EFIQEVIWM,mode=ax
+2017-10-19 11:26:51 views.py[line:187] INFO login return response info:{'token': 'eyJleHAiOjE1MDg0MDE2MTEsImlhdCI6MTUwODM4MzYxMSwiYWxnIjoiSFMyNTYifQ.IntcImFwcGtleVwiOiBcInd5d2F3alwiLCBcInVzZXJpZFwiOiA5NTA1NTAsIFwibXNpc2RuXCI6IFwiMTM1MjE0NTY4ODNcIiwgXCJpZGNhcmRcIjogXCIwXCIsIFwibW9kZVwiOiBcImF4XCIsIFwidXNlcm5hbWVcIjogXCJcXHU5MWQxXFx1NzBjMVwiLCBcImFwcGlkXCI6IFwiK1pPTExKL0VGSVFFVklXTVwifSI.ztZs8hJy7NfQmMrEuNSeQGm6_TqnSc31apCqFuujEh8', 'appkey': 'wywawj', 'appkid': '+ZOLLJ/EFIQEVIWM', 'subs_model': 'ax', 'cardno': '0', 'aname': '金烁', 'result': 0, 'ifpay': 0}
+2017-10-19 11:26:51 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:26:51] "GET /api/login.do?prtms=13521456883&&apwd=123456 HTTP/1.1" 200 -
+2017-10-19 11:27:25 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 11:27:25 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 11:27:25 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:27:25] "POST /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 11:28:26 views.py[line:427] INFO {'appkey': 'wywawj', 'userid': 950550, 'msisdn': '13521456883', 'idcard': '0', 'mode': 'ax', 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:28:27 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:28:27] "POST /api/getContacts.do HTTP/1.1" 500 -
+2017-10-19 11:30:02 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:30:02] "GET /api/login.do?token=%22eyJleHAiOjE1MDg0MDE2MTEsImlhdCI6MTUwODM4MzYxMSwiYWxnIjoiSFMyNTYifQ.IntcImFwcGtleVwiOiBcInd5d2F3alwiLCBcInVzZXJpZFwiOiA5NTA1NTAsIFwibXNpc2RuXCI6IFwiMTM1MjE0NTY4ODNcIiwgXCJpZGNhcmRcIjogXCIwXCIsIFwibW9kZVwiOiBcImF4XCIsIFwidXNlcm5hbWVcIjogXCJcXHU5MWQxXFx1NzBjMVwiLCBcImFwcGlkXCI6IFwiK1pPTExKL0VGSVFFVklXTVwifSI.ztZs8hJy7NfQmMrEuNSeQGm6_TqnSc31apCqFuujEh8%22 HTTP/1.1" 500 -
+2017-10-19 11:30:02 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:30:02] "GET /api/login.do?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-10-19 11:30:02 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:30:02] "GET /api/login.do?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-10-19 11:30:02 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:30:02] "GET /api/login.do?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-10-19 11:30:02 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:30:02] "GET /api/login.do?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2017-10-19 11:30:02 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:30:02] "GET /api/login.do?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-10-19 11:30:33 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 11:30:33 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 11:30:33 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:30:33] "GET /api/getContacts.do?token=%22eyJleHAiOjE1MDg0MDE2MTEsImlhdCI6MTUwODM4MzYxMSwiYWxnIjoiSFMyNTYifQ.IntcImFwcGtleVwiOiBcInd5d2F3alwiLCBcInVzZXJpZFwiOiA5NTA1NTAsIFwibXNpc2RuXCI6IFwiMTM1MjE0NTY4ODNcIiwgXCJpZGNhcmRcIjogXCIwXCIsIFwibW9kZVwiOiBcImF4XCIsIFwidXNlcm5hbWVcIjogXCJcXHU5MWQxXFx1NzBjMVwiLCBcImFwcGlkXCI6IFwiK1pPTExKL0VGSVFFVklXTVwifSI.ztZs8hJy7NfQmMrEuNSeQGm6_TqnSc31apCqFuujEh8%22 HTTP/1.1" 200 -
+2017-10-19 11:31:00 common.py[line:166] INFO argument of type 'NoneType' is not iterable
+2017-10-19 11:31:00 views.py[line:429] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 11:31:01 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:31:01] "GET /api/getContacts.do?token=eyJleHAiOjE1MDg0MDE2MTEsImlhdCI6MTUwODM4MzYxMSwiYWxnIjoiSFMyNTYifQ.IntcImFwcGtleVwiOiBcInd5d2F3alwiLCBcInVzZXJpZFwiOiA5NTA1NTAsIFwibXNpc2RuXCI6IFwiMTM1MjE0NTY4ODNcIiwgXCJpZGNhcmRcIjogXCIwXCIsIFwibW9kZVwiOiBcImF4XCIsIFwidXNlcm5hbWVcIjogXCJcXHU5MWQxXFx1NzBjMVwiLCBcImFwcGlkXCI6IFwiK1pPTExKL0VGSVFFVklXTVwifSI.ztZs8hJy7NfQmMrEuNSeQGm6_TqnSc31apCqFuujEh8 HTTP/1.1" 200 -
+2017-10-19 11:31:34 views.py[line:427] INFO {'appkey': 'wywawj', 'userid': 950550, 'msisdn': '13521456883', 'idcard': '0', 'mode': 'ax', 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:32:28 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:32:28] "POST /api/getContacts.do HTTP/1.1" 500 -
+2017-10-19 11:33:15 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 11:33:24 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 11:33:24 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 11:33:24 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 11:33:38 views.py[line:427] INFO {'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'msisdn': '13521456883', 'userid': 950550, 'username': '金烁', 'idcard': '0', 'appkey': 'wywawj'}
+2017-10-19 11:34:02 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:34:02] "POST /api/getContacts.do HTTP/1.1" 500 -
+2017-10-19 11:35:14 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 11:35:14 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 11:35:24 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 11:35:24 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 11:35:24 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 11:36:22 views.py[line:427] INFO {'userid': 950550, 'appkey': 'wywawj', 'msisdn': '13521456883', 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '0'}
+2017-10-19 11:36:32 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:36:32] "GET /api/getContacts.do?phone=123&letter=456 HTTP/1.1" 400 -
+2017-10-19 11:37:55 views.py[line:427] INFO {'userid': 950550, 'appkey': 'wywawj', 'msisdn': '13521456883', 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '0'}
+2017-10-19 11:38:15 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:38:15] "POST /api/getContacts.do?phone=123&letter=456 HTTP/1.1" 500 -
+2017-10-19 11:41:18 views.py[line:427] INFO {'userid': 950550, 'appkey': 'wywawj', 'msisdn': '13521456883', 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '0'}
+2017-10-19 11:41:23 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:41:23] "POST /api/getContacts.do HTTP/1.1" 500 -
+2017-10-19 11:44:44 views.py[line:427] INFO {'userid': 950550, 'appkey': 'wywawj', 'msisdn': '13521456883', 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '0'}
+2017-10-19 11:44:45 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:44:45] "POST /api/getContacts.do HTTP/1.1" 400 -
+2017-10-19 11:46:48 views.py[line:427] INFO {'userid': 950550, 'appkey': 'wywawj', 'msisdn': '13521456883', 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '0'}
+2017-10-19 11:46:52 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:46:52] "GET /api/getContacts.do?%22phone%22=%22132%22 HTTP/1.1" 400 -
+2017-10-19 11:47:15 views.py[line:427] INFO {'userid': 950550, 'appkey': 'wywawj', 'msisdn': '13521456883', 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '0'}
+2017-10-19 11:47:23 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:47:41 views.py[line:491] INFO [{"name": "\u674e\u51e4\u5c71", "expire_date": "None", "tel": "13832968864", "acms": ""}, {"name": "\u674e\u51e4\u5c71", "expire_date": "None", "tel": "13582525166", "acms": ""}, {"name": "\u674e\u91d1\u70c1", "expire_date": "None", "tel": "13521456883", "acms": ""}, {"name": "\u5c0f\u56fd", "expire_date": "None", "tel": "13810326774", "acms": ""}]
+2017-10-19 11:47:41 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:47:41] "GET /api/getContacts.do?%22phone%22=%22132%22 HTTP/1.1" 200 -
+2017-10-19 11:48:56 views.py[line:427] INFO {'userid': 950550, 'appkey': 'wywawj', 'msisdn': '13521456883', 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'idcard': '0'}
+2017-10-19 11:48:56 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:48:56 views.py[line:491] INFO [{"name": "\u674e\u51e4\u5c71", "expire_date": "None", "tel": "13832968864", "acms": ""}, {"name": "\u674e\u51e4\u5c71", "expire_date": "None", "tel": "13582525166", "acms": ""}, {"name": "\u674e\u91d1\u70c1", "expire_date": "None", "tel": "13521456883", "acms": ""}, {"name": "\u5c0f\u56fd", "expire_date": "None", "tel": "13810326774", "acms": ""}]
+2017-10-19 11:48:56 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:48:56] "GET /api/getContacts.do?%22phone%22=%22138%22 HTTP/1.1" 200 -
+2017-10-19 11:49:17 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 11:49:28 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 11:49:28 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 11:49:29 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 11:52:34 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 11:52:43 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 11:52:43 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 11:52:43 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 11:53:49 views.py[line:427] INFO {'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:53:49 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:53:49 views.py[line:491] INFO [{"acms": "", "expire_date": "None", "tel": "13832968864", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13582525166", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13521456883", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "expire_date": "None", "tel": "13810326774", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:53:49 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:53:49] "GET /api/getContacts.do?%22phone%22=%22138%22 HTTP/1.1" 200 -
+2017-10-19 11:54:05 views.py[line:427] INFO {'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:54:05 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:54:05 views.py[line:491] INFO [{"acms": "", "expire_date": "None", "tel": "13832968864", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13582525166", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13521456883", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "expire_date": "None", "tel": "13810326774", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:54:05 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:54:05] "GET /api/getContacts.do?%22phone%22=%22%E6%9D%8E%22 HTTP/1.1" 200 -
+2017-10-19 11:54:20 views.py[line:427] INFO {'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:54:20 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:54:20 views.py[line:491] INFO [{"acms": "", "expire_date": "None", "tel": "13832968864", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13582525166", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13521456883", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "expire_date": "None", "tel": "13810326774", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:54:20 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:54:20] "GET /api/getContacts.do?%22phone%22=%22%E5%B0%8F%22 HTTP/1.1" 200 -
+2017-10-19 11:54:47 views.py[line:427] INFO {'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:54:47 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:54:47 views.py[line:491] INFO [{"acms": "", "expire_date": "None", "tel": "13832968864", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13582525166", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13521456883", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "expire_date": "None", "tel": "13810326774", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:54:47 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:54:47] "GET /api/getContacts.do?%22phone%22=%22%E6%9D%8E%E5%B0%8F%E5%9B%BD%22 HTTP/1.1" 200 -
+2017-10-19 11:55:01 views.py[line:427] INFO {'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:55:01 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:55:01 views.py[line:491] INFO [{"acms": "", "expire_date": "None", "tel": "13832968864", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13582525166", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13521456883", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "expire_date": "None", "tel": "13810326774", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:55:01 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:55:01] "GET /api/getContacts.do?%22phone%22=%22%E6%9D%8E%E5%B0%8F%E4%B8%9C%E6%96%B9%E9%97%AA%E7%94%B5%E5%9B%BD%22 HTTP/1.1" 200 -
+2017-10-19 11:55:20 views.py[line:427] INFO {'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:55:20 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:55:20 views.py[line:491] INFO [{"acms": "", "expire_date": "None", "tel": "13832968864", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13582525166", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13521456883", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "expire_date": "None", "tel": "13810326774", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:55:20 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:55:20] "GET /api/getContacts.do?%22phone%22=%22138%22 HTTP/1.1" 200 -
+2017-10-19 11:55:27 views.py[line:427] INFO {'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:55:27 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:55:27 views.py[line:491] INFO [{"acms": "", "expire_date": "None", "tel": "13832968864", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13582525166", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13521456883", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "expire_date": "None", "tel": "13810326774", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:55:27 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:55:27] "GET /api/getContacts.do?%22phone%22=%2213832968864%22 HTTP/1.1" 200 -
+2017-10-19 11:56:27 views.py[line:427] INFO {'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:56:27 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:56:27 views.py[line:491] INFO [{"acms": "", "expire_date": "None", "tel": "13832968864", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13582525166", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13521456883", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "expire_date": "None", "tel": "13810326774", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:56:27 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:56:27] "GET /api/getContacts.do?%22phone%22=%2213832968864%22 HTTP/1.1" 200 -
+2017-10-19 11:56:39 views.py[line:427] INFO {'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 11:56:39 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:56:39 views.py[line:491] INFO [{"acms": "", "expire_date": "None", "tel": "13832968864", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13582525166", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "expire_date": "None", "tel": "13521456883", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "expire_date": "None", "tel": "13810326774", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:56:39 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:56:39] "GET /api/getContacts.do?%22phone%22=%2213832968864%22 HTTP/1.1" 200 -
+2017-10-19 11:57:06 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 11:57:16 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 11:57:16 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 11:57:16 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 11:57:24 views.py[line:427] INFO {'appkey': 'wywawj', 'userid': 950550, 'msisdn': '13521456883', 'mode': 'ax', 'appid': '+ZOLLJ/EFIQEVIWM', 'username': '金烁', 'idcard': '0'}
+2017-10-19 11:57:24 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 11:57:24 views.py[line:491] INFO [{"acms": "", "tel": "13832968864", "expire_date": "None", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "tel": "13582525166", "expire_date": "None", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "tel": "13521456883", "expire_date": "None", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-19 11:57:24 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:57:24] "GET /api/getContacts.do?%22phone%22=%2213832968864%22 HTTP/1.1" 200 -
+2017-10-19 11:57:59 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 11:58:00 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 11:58:11 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 11:58:11 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 11:58:11 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 11:58:15 views.py[line:427] INFO {'username': '金烁', 'userid': 950550, 'idcard': '0', 'mode': 'ax', 'appid': '+ZOLLJ/EFIQEVIWM', 'msisdn': '13521456883', 'appkey': 'wywawj'}
+2017-10-19 11:58:15 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 11:58:15] "GET /api/getContacts.do?%22phone%22=%2213832968864%22 HTTP/1.1" 500 -
+2017-10-19 11:59:23 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 11:59:24 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 12:01:08 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 12:01:17 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 12:01:17 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 12:01:17 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 12:01:51 views.py[line:427] INFO {'idcard': '0', 'userid': 950550, 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13521456883'}
+2017-10-19 12:02:26 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 12:02:47 views.py[line:491] INFO [{"tel": "13832968864", "expire_date": "None", "name": "\u674e\u51e4\u5c71", "acms": ""}, {"tel": "13582525166", "expire_date": "None", "name": "\u674e\u51e4\u5c71", "acms": ""}, {"tel": "13521456883", "expire_date": "None", "name": "\u674e\u91d1\u70c1", "acms": ""}, {"tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd", "acms": ""}]
+2017-10-19 12:02:47 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:02:47] "GET /api/getContacts.do?%22phone%22=%2213832968864%22 HTTP/1.1" 200 -
+2017-10-19 12:02:53 views.py[line:427] INFO {'idcard': '0', 'userid': 950550, 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13521456883'}
+2017-10-19 12:02:53 views.py[line:452] INFO phone="13832968864",letter=None
+2017-10-19 12:02:53 views.py[line:491] INFO []
+2017-10-19 12:02:53 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:02:53] "GET /api/getContacts.do?phone=%2213832968864%22 HTTP/1.1" 200 -
+2017-10-19 12:03:09 views.py[line:427] INFO {'idcard': '0', 'userid': 950550, 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13521456883'}
+2017-10-19 12:03:09 views.py[line:452] INFO phone="138",letter=None
+2017-10-19 12:03:09 views.py[line:491] INFO []
+2017-10-19 12:03:09 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:03:09] "GET /api/getContacts.do?phone=%22138%22 HTTP/1.1" 200 -
+2017-10-19 12:03:29 views.py[line:427] INFO {'idcard': '0', 'userid': 950550, 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13521456883'}
+2017-10-19 12:03:38 views.py[line:452] INFO phone="138",letter=None
+2017-10-19 12:03:53 views.py[line:491] INFO []
+2017-10-19 12:03:56 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:03:56] "GET /api/getContacts.do?phone=%22138%22 HTTP/1.1" 200 -
+2017-10-19 12:04:18 views.py[line:427] INFO {'idcard': '0', 'userid': 950550, 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13521456883'}
+2017-10-19 12:04:18 views.py[line:452] INFO phone="小",letter=None
+2017-10-19 12:04:18 views.py[line:491] INFO []
+2017-10-19 12:04:18 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:04:18] "GET /api/getContacts.do?phone=%22%E5%B0%8F%22 HTTP/1.1" 200 -
+2017-10-19 12:04:38 views.py[line:427] INFO {'idcard': '0', 'userid': 950550, 'username': '金烁', 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13521456883'}
+2017-10-19 12:04:47 views.py[line:452] INFO phone="李",letter=None
+2017-10-19 12:08:04 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 12:08:14 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 12:08:14 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 12:08:14 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 12:08:28 views.py[line:427] INFO {'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13521456883', 'appid': '+ZOLLJ/EFIQEVIWM', 'username': '金烁', 'userid': 950550, 'idcard': '0'}
+2017-10-19 12:08:28 views.py[line:452] INFO phone="李",letter=None
+2017-10-19 12:08:28 views.py[line:486] ERROR (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4") [SQL: 'select c.name,c.tel,c.acms,a.unsubts\n                                           from customer c\n                                           left join acms a on a.acms=c.acms\n                                           where c.user_id=950550  and c.source_id=3 and c.tel like \'%%"李"%%\' )']
+2017-10-19 12:08:28 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:08:28] "GET /api/getContacts.do?phone=%22%E6%9D%8E%22 HTTP/1.1" 200 -
+2017-10-19 12:09:01 views.py[line:427] INFO {'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13521456883', 'appid': '+ZOLLJ/EFIQEVIWM', 'username': '金烁', 'userid': 950550, 'idcard': '0'}
+2017-10-19 12:09:01 views.py[line:452] INFO phone="138",letter=None
+2017-10-19 12:09:01 views.py[line:486] ERROR (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4") [SQL: 'select c.name,c.tel,c.acms,a.unsubts\n                                           from customer c\n                                           left join acms a on a.acms=c.acms\n                                           where c.user_id=950550  and c.source_id=3 and c.tel like \'%%"138"%%\' )']
+2017-10-19 12:09:01 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:09:01] "GET /api/getContacts.do?phone=%22138%22 HTTP/1.1" 200 -
+2017-10-19 12:09:27 views.py[line:427] INFO {'mode': 'ax', 'appkey': 'wywawj', 'msisdn': '13521456883', 'appid': '+ZOLLJ/EFIQEVIWM', 'username': '金烁', 'userid': 950550, 'idcard': '0'}
+2017-10-19 12:09:32 views.py[line:452] INFO phone="138",letter=None
+2017-10-19 12:09:41 views.py[line:486] ERROR (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4") [SQL: 'select c.name,c.tel,c.acms,a.unsubts\n                                           from customer c\n                                           left join acms a on a.acms=c.acms\n                                           where c.user_id=950550  and c.source_id=3 and c.tel like \'%%"138"%%\' )']
+2017-10-19 12:09:43 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:09:43] "GET /api/getContacts.do?phone=%22138%22 HTTP/1.1" 200 -
+2017-10-19 12:11:20 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 12:11:29 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 12:11:29 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 12:11:29 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 12:11:41 views.py[line:427] INFO {'userid': 950550, 'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'appkey': 'wywawj', 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0'}
+2017-10-19 12:11:47 views.py[line:452] INFO phone="138",letter=None
+2017-10-19 12:12:35 views.py[line:491] INFO []
+2017-10-19 12:12:36 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:12:36] "GET /api/getContacts.do?phone=%22138%22 HTTP/1.1" 200 -
+2017-10-19 12:12:48 views.py[line:427] INFO {'userid': 950550, 'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'appkey': 'wywawj', 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0'}
+2017-10-19 12:12:48 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 12:12:48 views.py[line:491] INFO [{"tel": "13832968864", "name": "\u674e\u51e4\u5c71", "expire_date": "None", "acms": ""}, {"tel": "13582525166", "name": "\u674e\u51e4\u5c71", "expire_date": "None", "acms": ""}, {"tel": "13521456883", "name": "\u674e\u91d1\u70c1", "expire_date": "None", "acms": ""}, {"tel": "13810326774", "name": "\u5c0f\u56fd", "expire_date": "None", "acms": ""}]
+2017-10-19 12:12:48 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:12:48] "GET /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 12:13:16 views.py[line:427] INFO {'userid': 950550, 'username': '金烁', 'msisdn': '13521456883', 'mode': 'ax', 'appkey': 'wywawj', 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0'}
+2017-10-19 12:13:16 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 12:13:16 views.py[line:491] INFO [{"tel": "13832968864", "name": "\u674e\u51e4\u5c71", "expire_date": "None", "acms": ""}, {"tel": "13582525166", "name": "\u674e\u51e4\u5c71", "expire_date": "None", "acms": ""}, {"tel": "13521456883", "name": "\u674e\u91d1\u70c1", "expire_date": "None", "acms": ""}, {"tel": "13810326774", "name": "\u5c0f\u56fd", "expire_date": "None", "acms": ""}]
+2017-10-19 12:13:16 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 12:13:16] "GET /api/getContacts.do?%22phone%22=%22138%22 HTTP/1.1" 200 -
+2017-10-19 12:56:55 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 12:57:05 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 12:57:05 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 12:57:05 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 13:00:12 views.py[line:427] INFO {'username': '金烁', 'appkey': 'wywawj', 'msisdn': '13521456883', 'idcard': '0', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax'}
+2017-10-19 13:00:23 views.py[line:452] INFO phone=None,letter=None
+2017-10-19 13:00:26 views.py[line:491] INFO [{"acms": "", "tel": "13832968864", "name": "\u674e\u51e4\u5c71", "expire_date": "None"}, {"acms": "", "tel": "13582525166", "name": "\u674e\u51e4\u5c71", "expire_date": "None"}, {"acms": "", "tel": "13521456883", "name": "\u674e\u91d1\u70c1", "expire_date": "None"}, {"acms": "", "tel": "13810326774", "name": "\u5c0f\u56fd", "expire_date": "None"}]
+2017-10-19 13:00:26 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 13:00:26] "GET /api/getContacts.do?%22phone%22=%22138%22 HTTP/1.1" 200 -
+2017-10-19 14:09:57 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 14:10:07 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 14:10:07 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 14:10:07 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 14:10:37 bind_views.py[line:81] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 14:10:38 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 14:10:38] "GET /api/getCityInfo.do HTTP/1.1" 200 -
+2017-10-19 14:11:02 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 14:11:02] "GET /api/getCityInfo.do HTTP/1.1" 200 -
+2017-10-19 14:11:09 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 14:11:09] "GET /api/getCityInfo.do HTTP/1.1" 200 -
+2017-10-19 14:25:05 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 14:25:05 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 14:25:19 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 14:25:19 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 14:25:19 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 14:27:31 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 14:27:32 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 14:27:45 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 14:27:45 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 14:27:45 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 14:29:44 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 14:29:45 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 14:29:54 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 14:29:54 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 14:29:54 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 14:35:20 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 14:35:20 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 21:05:28 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 21:05:41 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 21:05:41 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 21:05:41 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 21:05:51 bind_views.py[line:81] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 21:05:52 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:05:52] "GET /api/getCityInfo.do HTTP/1.1" 200 -
+2017-10-19 21:06:01 bind_views.py[line:81] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 21:06:01 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:06:01] "GET /api/getCityInfo.do HTTP/1.1" 200 -
+2017-10-19 21:06:13 bind_views.py[line:15] INFO {'Hm_lvt_080836300300be57b7f34f4b3e97d911': '1507889092'}
+2017-10-19 21:06:13 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:06:13] "GET / HTTP/1.1" 200 -
+2017-10-19 21:06:13 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:06:13] "GET /favicon.ico HTTP/1.1" 404 -
+2017-10-19 21:06:20 views.py[line:142] INFO SELECT name,idcard,userid FROM user where tel='13521456883' and password='jIeBaH2JLzw='
+2017-10-19 21:06:20 views.py[line:178] INFO appkey=wywawj, username=金烁, idcard=0,appid=+ZOLLJ/EFIQEVIWM,mode=ax
+2017-10-19 21:06:20 views.py[line:193] INFO login return response info:{'token': 'eyJpYXQiOjE1MDg0MTgzODAsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTA4NDM2MzgwfQ.IntcImFwcGlkXCI6IFwiK1pPTExKL0VGSVFFVklXTVwiLCBcInVzZXJuYW1lXCI6IFwiXFx1OTFkMVxcdTcwYzFcIiwgXCJ1c2VyaWRcIjogOTUwNTUwLCBcIm1vZGVcIjogXCJheFwiLCBcImFwcGtleVwiOiBcInd5d2F3alwiLCBcImlkY2FyZFwiOiBcIjBcIiwgXCJtc2lzZG5cIjogXCIxMzUyMTQ1Njg4M1wifSI.2zjqpKEPh2xZqPFyuM-yUXYKHB7N_Zc7SlLAnIB56Ys', 'aname': '金烁', 'subs_model': 'ax', 'cardno': '0', 'result': 0, 'appkid': '+ZOLLJ/EFIQEVIWM', 'appkey': 'wywawj', 'ifpay': 0}
+2017-10-19 21:06:20 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:06:20] "GET /api/login.do?prtms=13521456883&&apwd=123456 HTTP/1.1" 200 -
+2017-10-19 21:06:57 bind_views.py[line:81] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 21:06:57 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:06:57] "GET /api/getCityInfo.do HTTP/1.1" 200 -
+2017-10-19 21:07:11 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:07:11] "GET /api/getCityInfo.do HTTP/1.1" 200 -
+2017-10-19 21:08:25 views.py[line:435] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 21:08:25 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:08:25] "GET /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 21:08:30 views.py[line:435] ERROR eval() arg 1 must be a string, bytes or code object
+2017-10-19 21:08:30 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:08:30] "GET /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 21:08:50 views.py[line:433] INFO {'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'userid': 950550, 'username': '金烁', 'appkey': 'wywawj', 'idcard': '0', 'msisdn': '13521456883'}
+2017-10-19 21:08:50 views.py[line:458] INFO phone=None,letter=None
+2017-10-19 21:08:50 views.py[line:497] INFO [{"acms": "", "expire_date": "None", "name": "\u674e\u51e4\u5c71", "tel": "13832968864"}, {"acms": "", "expire_date": "None", "name": "\u674e\u51e4\u5c71", "tel": "13582525166"}, {"acms": "", "expire_date": "None", "name": "\u674e\u91d1\u70c1", "tel": "13521456883"}, {"acms": "", "expire_date": "None", "name": "\u5c0f\u56fd", "tel": "13810326774"}]
+2017-10-19 21:08:50 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:08:50] "GET /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 21:09:40 views.py[line:433] INFO {'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'userid': 950550, 'username': '金烁', 'appkey': 'wywawj', 'idcard': '0', 'msisdn': '13521456883'}
+2017-10-19 21:09:40 views.py[line:458] INFO phone=138,letter=None
+2017-10-19 21:09:40 views.py[line:497] INFO [{"acms": "", "expire_date": "None", "name": "\u674e\u51e4\u5c71", "tel": "13832968864"}, {"acms": "", "expire_date": "None", "name": "\u5c0f\u56fd", "tel": "13810326774"}]
+2017-10-19 21:09:40 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:09:40] "GET /api/getContacts.do?phone=138 HTTP/1.1" 200 -
+2017-10-19 21:09:52 views.py[line:433] INFO {'appid': '+ZOLLJ/EFIQEVIWM', 'mode': 'ax', 'userid': 950550, 'username': '金烁', 'appkey': 'wywawj', 'idcard': '0', 'msisdn': '13521456883'}
+2017-10-19 21:09:52 views.py[line:458] INFO phone=李,letter=None
+2017-10-19 21:09:52 views.py[line:497] INFO []
+2017-10-19 21:09:52 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:09:52] "GET /api/getContacts.do?phone=%E6%9D%8E HTTP/1.1" 200 -
+2017-10-19 21:11:46 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 21:11:56 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 21:11:56 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 21:11:56 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 21:12:02 views.py[line:142] INFO SELECT name,idcard,userid FROM user where tel='13521456883' and password='jIeBaH2JLzw='
+2017-10-19 21:12:03 views.py[line:178] INFO appkey=wywawj, username=金烁, idcard=0,appid=+ZOLLJ/EFIQEVIWM,mode=ax
+2017-10-19 21:12:03 views.py[line:193] INFO login return response info:{'ifpay': 0, 'cardno': '0', 'token': 'eyJleHAiOjE1MDg0MzY3MjMsImlhdCI6MTUwODQxODcyMywiYWxnIjoiSFMyNTYifQ.IntcIm1zaXNkblwiOiBcIjEzNTIxNDU2ODgzXCIsIFwiYXBwa2V5XCI6IFwid3l3YXdqXCIsIFwibW9kZVwiOiBcImF4XCIsIFwidXNlcmlkXCI6IDk1MDU1MCwgXCJ1c2VybmFtZVwiOiBcIlxcdTkxZDFcXHU3MGMxXCIsIFwiaWRjYXJkXCI6IFwiMFwiLCBcImFwcGlkXCI6IFwiK1pPTExKL0VGSVFFVklXTVwifSI.XX3TNZ1k8ErYlLQegwQeIcMX2q8NQzTVzwgA4tHN7xs', 'result': 0, 'appkid': '+ZOLLJ/EFIQEVIWM', 'appkey': 'wywawj', 'aname': '金烁', 'subs_model': 'ax'}
+2017-10-19 21:12:03 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:12:03] "GET /api/login.do?prtms=13521456883&&apwd=123456 HTTP/1.1" 200 -
+2017-10-19 21:12:42 views.py[line:433] INFO {'msisdn': '13521456883', 'username': '金烁', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 21:12:42 views.py[line:458] INFO phone=None,letter=None
+2017-10-19 21:12:42 views.py[line:497] INFO [{"name": "\u674e\u51e4\u5c71", "expire_date": "None", "acms": "", "tel": "13832968864"}, {"name": "\u674e\u51e4\u5c71", "expire_date": "None", "acms": "", "tel": "13582525166"}, {"name": "\u674e\u91d1\u70c1", "expire_date": "None", "acms": "", "tel": "13521456883"}, {"name": "\u5c0f\u56fd", "expire_date": "None", "acms": "", "tel": "13810326774"}]
+2017-10-19 21:12:42 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:12:42] "GET /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 21:12:58 views.py[line:433] INFO {'msisdn': '13521456883', 'username': '金烁', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 21:12:58 views.py[line:458] INFO phone=123,letter=None
+2017-10-19 21:12:58 views.py[line:492] ERROR (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(and c.tel like '%123%' or c.name like '%123%') and c.source_id=3' at line 4") [SQL: "select c.name,c.tel,c.acms,a.unsubts\n                                           from customer c\n                                           left join acms a on a.acms=c.acms\n                                           where c.user_id=950550 (and c.tel like '%%123%%' or c.name like '%%123%%') and c.source_id=3"]
+2017-10-19 21:12:58 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:12:58] "GET /api/getContacts.do?phone=123 HTTP/1.1" 200 -
+2017-10-19 21:13:04 views.py[line:433] INFO {'msisdn': '13521456883', 'username': '金烁', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 21:13:04 views.py[line:458] INFO phone=138,letter=None
+2017-10-19 21:13:04 views.py[line:492] ERROR (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(and c.tel like '%138%' or c.name like '%138%') and c.source_id=3' at line 4") [SQL: "select c.name,c.tel,c.acms,a.unsubts\n                                           from customer c\n                                           left join acms a on a.acms=c.acms\n                                           where c.user_id=950550 (and c.tel like '%%138%%' or c.name like '%%138%%') and c.source_id=3"]
+2017-10-19 21:13:04 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:13:04] "GET /api/getContacts.do?phone=138 HTTP/1.1" 200 -
+2017-10-19 21:13:38 views.py[line:433] INFO {'msisdn': '13521456883', 'username': '金烁', 'mode': 'ax', 'userid': 950550, 'appkey': 'wywawj', 'idcard': '0', 'appid': '+ZOLLJ/EFIQEVIWM'}
+2017-10-19 21:13:38 views.py[line:458] INFO phone=李,letter=None
+2017-10-19 21:13:38 views.py[line:492] ERROR (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(and c.tel like '%李%' or c.name like '%李%') and c.source_id=3' at line 4") [SQL: "select c.name,c.tel,c.acms,a.unsubts\n                                           from customer c\n                                           left join acms a on a.acms=c.acms\n                                           where c.user_id=950550 (and c.tel like '%%李%%' or c.name like '%%李%%') and c.source_id=3"]
+2017-10-19 21:13:38 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:13:38] "GET /api/getContacts.do?phone=%E6%9D%8E HTTP/1.1" 200 -
+2017-10-19 21:18:23 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 21:18:32 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 21:18:32 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 21:18:32 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 21:19:07 views.py[line:142] INFO SELECT name,idcard,userid FROM user where tel='13521456883' and password='jIeBaH2JLzw='
+2017-10-19 21:19:07 views.py[line:178] INFO appkey=wywawj, username=金烁, idcard=0,appid=+ZOLLJ/EFIQEVIWM,mode=ax
+2017-10-19 21:19:07 views.py[line:193] INFO login return response info:{'aname': '金烁', 'appkey': 'wywawj', 'appkid': '+ZOLLJ/EFIQEVIWM', 'cardno': '0', 'subs_model': 'ax', 'token': 'eyJleHAiOjE1MDg0MzcxNDcsImlhdCI6MTUwODQxOTE0NywiYWxnIjoiSFMyNTYifQ.IntcIm1zaXNkblwiOiBcIjEzNTIxNDU2ODgzXCIsIFwibW9kZVwiOiBcImF4XCIsIFwiYXBwaWRcIjogXCIrWk9MTEovRUZJUUVWSVdNXCIsIFwiYXBwa2V5XCI6IFwid3l3YXdqXCIsIFwiaWRjYXJkXCI6IFwiMFwiLCBcInVzZXJpZFwiOiA5NTA1NTAsIFwidXNlcm5hbWVcIjogXCJcXHU5MWQxXFx1NzBjMVwifSI.zprC7ZDZFcQGD-3Z_XVRfn2CmIGhXPcv_BZW-bj7Dek', 'ifpay': 0, 'result': 0}
+2017-10-19 21:19:07 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:19:07] "GET /api/login.do?prtms=13521456883&&apwd=123456 HTTP/1.1" 200 -
+2017-10-19 21:19:40 views.py[line:433] INFO {'msisdn': '13521456883', 'mode': 'ax', 'appid': '+ZOLLJ/EFIQEVIWM', 'appkey': 'wywawj', 'username': '金烁', 'idcard': '0', 'userid': 950550}
+2017-10-19 21:19:40 views.py[line:458] INFO phone=None,letter=None
+2017-10-19 21:19:40 views.py[line:497] INFO [{"acms": "", "name": "\u674e\u51e4\u5c71", "expire_date": "None", "tel": "13832968864"}, {"acms": "", "name": "\u674e\u51e4\u5c71", "expire_date": "None", "tel": "13582525166"}, {"acms": "", "name": "\u674e\u91d1\u70c1", "expire_date": "None", "tel": "13521456883"}, {"acms": "", "name": "\u5c0f\u56fd", "expire_date": "None", "tel": "13810326774"}]
+2017-10-19 21:19:40 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:19:40] "GET /api/getContacts.do HTTP/1.1" 200 -
+2017-10-19 21:19:52 views.py[line:433] INFO {'msisdn': '13521456883', 'mode': 'ax', 'appid': '+ZOLLJ/EFIQEVIWM', 'appkey': 'wywawj', 'username': '金烁', 'idcard': '0', 'userid': 950550}
+2017-10-19 21:19:52 views.py[line:458] INFO phone=小,letter=None
+2017-10-19 21:19:52 views.py[line:497] INFO [{"acms": "", "name": "\u5c0f\u56fd", "expire_date": "None", "tel": "13810326774"}]
+2017-10-19 21:19:52 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:19:52] "GET /api/getContacts.do?phone=%E5%B0%8F HTTP/1.1" 200 -
+2017-10-19 21:22:41 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 101.200.221.216
+2017-10-19 21:22:41 connectionpool.py[line:396] DEBUG http://101.200.221.216:8888 "POST /gsms HTTP/1.1" 200 61
+2017-10-19 21:22:41 views.py[line:668] INFO {"exptime": "2017-10-19 21:32:41", "vcode": "112597", "vid": "2fda2f6a58994297ad5009e021253768", "result": 0}
+2017-10-19 21:22:41 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:22:41] "GET /api/getSmsVcode.do?phone=13810326774 HTTP/1.1" 200 -
+2017-10-19 21:52:38 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 101.200.221.216
+2017-10-19 21:52:39 connectionpool.py[line:396] DEBUG http://101.200.221.216:8888 "POST /gsms HTTP/1.1" 200 61
+2017-10-19 21:52:39 views.py[line:668] INFO {"exptime": "2017-10-19 22:02:39", "vcode": "341416", "vid": "040f97787483481885c52453a5f2584a", "result": 0}
+2017-10-19 21:52:39 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:52:39] "GET /api/getSmsVcode.do?phone=18211132622 HTTP/1.1" 200 -
+2017-10-19 21:55:42 views.py[line:700] INFO ver_code=341416,rcode=341416,vid=040f97787483481885c52453a5f2584a
+2017-10-19 21:55:42 views.py[line:706] INFO {"result": 0}
+2017-10-19 21:55:42 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:55:42] "GET /api/VerSmsVcode.do?vid=040f97787483481885c52453a5f2584a&vcode=341416 HTTP/1.1" 200 -
+2017-10-19 21:56:32 views.py[line:700] INFO ver_code=341416,rcode=341411,vid=040f97787483481885c52453a5f2584a
+2017-10-19 21:56:32 views.py[line:706] INFO {"result": 1}
+2017-10-19 21:56:32 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:56:32] "GET /api/VerSmsVcode.do?vid=040f97787483481885c52453a5f2584a&vcode=341411 HTTP/1.1" 200 -
+2017-10-19 21:56:37 views.py[line:700] INFO ver_code=341416,rcode=341410,vid=040f97787483481885c52453a5f2584a
+2017-10-19 21:56:37 views.py[line:706] INFO {"result": 1}
+2017-10-19 21:56:37 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:56:37] "GET /api/VerSmsVcode.do?vid=040f97787483481885c52453a5f2584a&vcode=341410 HTTP/1.1" 200 -
+2017-10-19 21:56:42 views.py[line:700] INFO ver_code=341416,rcode=341416,vid=040f97787483481885c52453a5f2584a
+2017-10-19 21:56:42 views.py[line:706] INFO {"result": 0}
+2017-10-19 21:56:42 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:56:42] "GET /api/VerSmsVcode.do?vid=040f97787483481885c52453a5f2584a&vcode=341416 HTTP/1.1" 200 -
+2017-10-19 21:58:26 views.py[line:700] INFO ver_code=None,rcode=341416,vid=040f97787483481885c52453a5f2584
+2017-10-19 21:58:26 views.py[line:706] INFO {"result": 1}
+2017-10-19 21:58:26 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:58:26] "GET /api/VerSmsVcode.do?vid=040f97787483481885c52453a5f2584&vcode=341416 HTTP/1.1" 200 -
+2017-10-19 21:58:30 views.py[line:700] INFO ver_code=341416,rcode=341416,vid=040f97787483481885c52453a5f2584a
+2017-10-19 21:58:30 views.py[line:706] INFO {"result": 0}
+2017-10-19 21:58:30 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 21:58:30] "GET /api/VerSmsVcode.do?vid=040f97787483481885c52453a5f2584a&vcode=341416 HTTP/1.1" 200 -
+2017-10-19 22:02:50 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 22:02:51 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 22:03:10 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 22:03:10 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 22:03:10 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 22:04:23 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 22:04:24 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 22:24:01 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 22:24:11 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 22:24:11 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 22:24:11 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 22:24:50 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 101.200.221.216
+2017-10-19 22:24:50 connectionpool.py[line:396] DEBUG http://101.200.221.216:8888 "POST /gsms HTTP/1.1" 200 61
+2017-10-19 22:24:50 views.py[line:682] INFO {"exptime": "2017-10-19 22:34:50", "vid": "9b153144a2af45809e6f6207a91360c6", "result": 0, "vcode": "144488"}
+2017-10-19 22:24:51 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 22:24:51] "GET /api/getSmsVcode.do?phone=18211132622 HTTP/1.1" 200 -
+2017-10-19 22:25:07 views.py[line:714] INFO ver_code=None,rcode=None,vid=None
+2017-10-19 22:25:07 views.py[line:720] INFO {"result": 0}
+2017-10-19 22:25:07 _internal.py[line:87] INFO 127.0.0.1 - - [19/Oct/2017 22:25:07] "GET /api/VerSmsVcode.do?144488=341416 HTTP/1.1" 200 -
+2017-10-19 22:25:46 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 22:25:46 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 22:25:58 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 22:25:58 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 22:25:58 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 22:29:18 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 22:29:18 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 22:29:34 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 22:29:34 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 22:29:35 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 22:30:51 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 22:30:52 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 22:31:09 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 22:31:09 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 22:31:10 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-19 22:35:49 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-19 22:35:50 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-19 22:36:01 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-19 22:36:01 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-19 22:36:01 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-20 09:54:58 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-20 09:55:08 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-20 09:55:08 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-20 09:55:08 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-20 09:56:03 bind_views.py[line:15] INFO {'Hm_lvt_080836300300be57b7f34f4b3e97d911': '1507889092'}
+2017-10-20 09:56:04 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 09:56:04] "GET / HTTP/1.1" 200 -
+2017-10-20 09:56:06 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 09:56:06] "GET /favicon.ico HTTP/1.1" 404 -
+2017-10-20 09:56:09 views.py[line:153] INFO SELECT name,idcard,userid FROM user where tel='13521456883' and password='jIeBaH2JLzw='
+2017-10-20 09:56:10 views.py[line:189] INFO appkey=wywawj, username=金烁, idcard=0,appid=+ZOLLJ/EFIQEVIWM,mode=ax
+2017-10-20 09:56:10 views.py[line:204] INFO login return response info:{'result': 0, 'subs_model': 'ax', 'appkey': 'wywawj', 'aname': '金烁', 'cardno': '0', 'appkid': '+ZOLLJ/EFIQEVIWM', 'ifpay': 0, 'token': 'eyJpYXQiOjE1MDg0NjQ1NzAsImFsZyI6IkhTMjU2IiwiZXhwIjoxNTA4NDgyNTcwfQ.IntcInVzZXJuYW1lXCI6IFwiXFx1OTFkMVxcdTcwYzFcIiwgXCJhcHBrZXlcIjogXCJ3eXdhd2pcIiwgXCJ1c2VyaWRcIjogOTUwNTUwLCBcImFwcGlkXCI6IFwiK1pPTExKL0VGSVFFVklXTVwiLCBcImlkY2FyZFwiOiBcIjBcIiwgXCJtb2RlXCI6IFwiYXhcIiwgXCJtc2lzZG5cIjogXCIxMzUyMTQ1Njg4M1wifSI.5C7zO2zNOF3Zl5_xYKml1ojJ_SfmkI2Q4qf9aqYZQ4U'}
+2017-10-20 09:56:10 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 09:56:10] "GET /api/login.do?prtms=13521456883&&apwd=123456 HTTP/1.1" 200 -
+2017-10-20 09:59:19 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 09:59:19 views.py[line:469] INFO phone=None,letter=None
+2017-10-20 09:59:19 views.py[line:508] INFO [{"acms": "", "tel": "13832968864", "expire_date": "None", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "tel": "13582525166", "expire_date": "None", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "tel": "13521456883", "expire_date": "None", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-20 09:59:19 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 09:59:19] "GET /api/getContacts.do?o HTTP/1.1" 200 -
+2017-10-20 09:59:28 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 09:59:28 views.py[line:469] INFO phone=None,letter=None
+2017-10-20 09:59:28 views.py[line:508] INFO [{"acms": "", "tel": "13832968864", "expire_date": "None", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "tel": "13582525166", "expire_date": "None", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "tel": "13521456883", "expire_date": "None", "name": "\u674e\u91d1\u70c1"}, {"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-20 09:59:28 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 09:59:28] "GET /api/getContacts.do HTTP/1.1" 200 -
+2017-10-20 09:59:45 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 09:59:45 views.py[line:469] INFO phone=138,letter=None
+2017-10-20 09:59:45 views.py[line:508] INFO [{"acms": "", "tel": "13832968864", "expire_date": "None", "name": "\u674e\u51e4\u5c71"}, {"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-20 09:59:45 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 09:59:45] "GET /api/getContacts.do?phone=138 HTTP/1.1" 200 -
+2017-10-20 10:00:02 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 10:00:02 views.py[line:469] INFO phone=小,letter=None
+2017-10-20 10:00:02 views.py[line:508] INFO [{"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-20 10:00:02 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 10:00:02] "GET /api/getContacts.do?phone=%E5%B0%8F HTTP/1.1" 200 -
+2017-10-20 10:00:51 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 10:00:51 views.py[line:469] INFO phone=\u5c0f\u56fd,letter=None
+2017-10-20 10:00:51 views.py[line:508] INFO []
+2017-10-20 10:00:51 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 10:00:51] "GET /api/getContacts.do?phone=\u5c0f\u56fd HTTP/1.1" 200 -
+2017-10-20 10:00:57 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 10:00:57 views.py[line:469] INFO phone=小,letter=None
+2017-10-20 10:00:57 views.py[line:508] INFO [{"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-20 10:00:57 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 10:00:57] "GET /api/getContacts.do?phone=%E5%B0%8F HTTP/1.1" 200 -
+2017-10-20 10:01:32 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 10:01:32 views.py[line:469] INFO phone="小国",letter=None
+2017-10-20 10:01:32 views.py[line:508] INFO []
+2017-10-20 10:01:32 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 10:01:32] "GET /api/getContacts.do?phone=%22%E5%B0%8F%E5%9B%BD%22 HTTP/1.1" 200 -
+2017-10-20 10:01:36 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 10:01:36 views.py[line:469] INFO phone=小国,letter=None
+2017-10-20 10:01:36 views.py[line:508] INFO [{"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-20 10:01:36 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 10:01:36] "GET /api/getContacts.do?phone=%E5%B0%8F%E5%9B%BD HTTP/1.1" 200 -
+2017-10-20 10:06:03 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 10:06:03 views.py[line:469] INFO phone=小国,letter=None
+2017-10-20 10:06:03 views.py[line:508] INFO [{"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-20 10:06:03 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 10:06:03] "GET /api/getContacts.do?phone=%E5%B0%8F%E5%9B%BD HTTP/1.1" 200 -
+2017-10-20 10:07:04 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 10:07:04 views.py[line:469] INFO phone=小国,letter=None
+2017-10-20 10:07:04 views.py[line:508] INFO [{"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-20 10:07:04 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 10:07:04] "GET /api/getContacts.do?phone=%E5%B0%8F%E5%9B%BD HTTP/1.1" 200 -
+2017-10-20 10:07:08 views.py[line:444] INFO {'username': '金烁', 'appkey': 'wywawj', 'userid': 950550, 'appid': '+ZOLLJ/EFIQEVIWM', 'idcard': '0', 'mode': 'ax', 'msisdn': '13521456883'}
+2017-10-20 10:07:08 views.py[line:469] INFO phone=小,letter=None
+2017-10-20 10:07:08 views.py[line:508] INFO [{"acms": "", "tel": "13810326774", "expire_date": "None", "name": "\u5c0f\u56fd"}]
+2017-10-20 10:07:08 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 10:07:08] "GET /api/getContacts.do?phone=%E5%B0%8F HTTP/1.1" 200 -
+2017-10-20 11:41:08 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-20 11:41:17 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-20 11:41:17 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-20 11:41:17 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-20 11:43:02 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 11:43:02] "GET /api/userRegister.do?codeOrDescry=100001&name=%E8%8B%8F%E6%9C%9D%E8%BE%89&tel=13069302381&password=123456 HTTP/1.1" 200 -
+2017-10-20 13:59:52 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 13:59:52] "GET /api/userRegister.do?codeOrDescry=10000&name=%E8%8B%8F%E6%9C%9D%E8%BE%89&tel=13069302381&password=123456 HTTP/1.1" 200 -
+2017-10-20 14:28:23 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-20 14:28:33 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-20 14:28:33 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-20 14:28:33 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-20 14:38:05 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 14:38:05] "GET /api/companyRegister.do?cName=%E6%B2%B3%E5%8D%97%E5%95%86%E6%99%AF%E7%BD%91%E7%BB%9C&code=200002&descry=%E5%95%86%E6%99%AF&legalperson=%E4%BD%99%E6%80%BB&linkman=%E4%BD%99%E8%80%81%E6%9D%BF&linktel=18211132622&password=123456 HTTP/1.1" 500 -
+2017-10-20 14:38:53 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 14:38:53] "GET /api/companyRegister.do?cName=%E6%B2%B3%E5%8D%97%E5%95%86%E6%99%AF%E7%BD%91%E7%BB%9C&code=200002&descry=%E5%95%86%E6%99%AF&legalperson=%E4%BD%99%E6%80%BB&linkman=%E4%BD%99%E8%80%81%E6%9D%BF&linktel=18211132622&password=123456&businessLicence HTTP/1.1" 500 -
+2017-10-20 14:39:02 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 14:39:02] "GET /api/companyRegister.do?cName=%E6%B2%B3%E5%8D%97%E5%95%86%E6%99%AF%E7%BD%91%E7%BB%9C&code=200002&descry=%E5%95%86%E6%99%AF&legalperson=%E4%BD%99%E6%80%BB&linkman=%E4%BD%99%E8%80%81%E6%9D%BF&linktel=18211132622&password=123456&businessLicence&socialCode HTTP/1.1" 500 -
+2017-10-20 14:40:06 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-20 14:40:07 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-20 14:40:18 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-20 14:40:18 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-20 14:40:18 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-20 14:40:33 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 14:40:33] "GET /api/companyRegister.do?cName=%E6%B2%B3%E5%8D%97%E5%95%86%E6%99%AF%E7%BD%91%E7%BB%9C&code=200002&descry=%E5%95%86%E6%99%AF&legalperson=%E4%BD%99%E6%80%BB&linkman=%E4%BD%99%E8%80%81%E6%9D%BF&linktel=18211132622&password=123456&businessLicence&socialCode HTTP/1.1" 500 -
+2017-10-20 14:41:21 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-20 14:41:31 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-20 14:41:31 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-20 14:41:31 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-20 14:42:14 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 14:42:14] "GET /api/companyRegister.do?cName=%E6%B2%B3%E5%8D%97%E5%95%86%E6%99%AF%E7%BD%91%E7%BB%9C&code=200002&descry=%E5%95%86%E6%99%AF&legalperson=%E4%BD%99%E6%80%BB&linkman=%E4%BD%99%E8%80%81%E6%9D%BF&linktel=18211132622&password=123456&businessLicence&socialCode HTTP/1.1" 500 -
+2017-10-20 15:25:09 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-20 15:25:18 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-20 15:25:18 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-20 15:25:18 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-20 15:25:32 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 15:25:32] "GET /api/companyRegister.do?cName=%E6%B2%B3%E5%8D%97%E5%95%86%E6%99%AF%E7%BD%91%E7%BB%9C&code=200002&descry=%E5%95%86%E6%99%AF&legalperson=%E4%BD%99%E6%80%BB&linkman=%E4%BD%99%E8%80%81%E6%9D%BF&linktel=18211132622&password=123456&businessLicence&socialCode HTTP/1.1" 500 -
+2017-10-20 15:33:58 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-20 15:34:08 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-20 15:34:08 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-20 15:34:08 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-10-20 15:34:37 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 15:34:37] "GET /api/companyRegister.do?cName=%E6%B2%B3%E5%8D%97%E5%95%86%E6%99%AF%E7%BD%91%E7%BB%9C&code=200002&descry=%E5%95%86%E6%99%AF&legalperson=%E4%BD%99%E6%80%BB&linkman=%E4%BD%99%E8%80%81%E6%9D%BF&linktel=18211132622&password=123456&businessLicence&socialCode HTTP/1.1" 200 -
+2017-10-20 15:57:10 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 15:57:10] "GET /api/companyRegister.do?cName=%E6%B2%B3%E5%8D%97%E5%95%86%E6%99%AF%E7%BD%91%E7%BB%9C&code=200002&descry=%E5%95%86%E6%99%AF&legalperson=%E4%BD%99%E6%80%BB&linkman=%E4%BD%99%E8%80%81%E6%9D%BF&linktel=18211132622&password=123456&businessLicence&socialCode HTTP/1.1" 200 -
+2017-10-20 15:57:31 _internal.py[line:87] INFO 127.0.0.1 - - [20/Oct/2017 15:57:31] "GET /api/companyRegister.do?cName=%E6%B2%B3%E5%8D%97%E5%95%86%E6%99%AF%E7%BD%91%E7%BB%9C&code=200002&descry=%E5%95%86%E6%99%AF&legalperson=%E4%BD%99%E6%80%BB&linkman=%E4%BD%99%E8%80%81%E6%9D%BF&linktel=18211132623&password=123456&businessLicence&socialCode HTTP/1.1" 200 -
+2017-10-20 15:58:27 _internal.py[line:87] INFO  * Detected change in 'F:\\PyCharm\\PyCharm_projects\\micromsg\\views.py', reloading
+2017-10-20 15:58:27 _internal.py[line:87] INFO  * Restarting with stat
+2017-10-20 15:58:45 _internal.py[line:87] WARNING  * Debugger is active!
+2017-10-20 15:58:45 _internal.py[line:87] INFO  * Debugger PIN: 251-545-606
+2017-10-20 15:58:45 _internal.py[line:87] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

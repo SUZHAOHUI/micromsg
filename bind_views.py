@@ -87,7 +87,7 @@ def get_city_list():
     try:
         city_numbers=sb.session.execute("""  select DISTINCT c.city,a.code from acms a
                                left join city c on a.code=c.code
-                               where a.state='N' and a.status='I'
+                               where a.state='U' and a.status='I'
                             """)
 
         l_city=[]
@@ -338,17 +338,17 @@ def get_wx_p():
     # spbill_create_ip=js_wxpublic_info.get('spbill_create_ip')
 
     d_unifiedorder={}
-    # key='6XlblatoOeCriipz7lkAgiSH2RI0rk8k'
-    key='a8b0248258c0110fd8895d7466b8c579'
+    key='6XlblatoOeCriipz7lkAgiSH2RI0rk8k'
+    # key='a8b0248258c0110fd8895d7466b8c579'
     d_unifiedorder['appid']=appid  #小程序ID
-    # d_unifiedorder['mch_id']='1485541442'    #商户号
-    d_unifiedorder['mch_id'] = '1265774901'
+    d_unifiedorder['mch_id']='1485541442'    #商户号
+    # d_unifiedorder['mch_id'] = '1265774901'
     d_unifiedorder['nonce_str']=base64.b64encode(os.urandom(24)).upper().decode()
     d_unifiedorder['body']='haowaihao'
     d_unifiedorder['out_trade_no']=uuid.uuid4().hex.upper()
     d_unifiedorder['total_fee']=str(amt)
     d_unifiedorder['spbill_create_ip']=spbill_create_ip
-    d_unifiedorder['notify_url']='https://weixin1.haowaihao.com.cn/api/notify'
+    d_unifiedorder['notify_url']='https://weixin1.haowaihao.com.cn/api/notifyHWH'
     d_unifiedorder['trade_type']='JSAPI'
     d_unifiedorder['openid']=openid
     sign=pay_sign(d_unifiedorder,key)
@@ -369,7 +369,7 @@ def get_wx_p():
         rtwx['nonceStr']=base64.b64encode(os.urandom(24)).upper().decode()
         rtwx['package']='prepay_id={}'.format(r_p['prepay_id'])
         rtwx['signType']='MD5'
-        sign=pay_sign(rtwx)
+        sign=pay_sign(rtwx,key)
         rtwx['paySign']=sign
         expire_date = get_expire_date(acms)
         current_date=datetime.datetime.now()

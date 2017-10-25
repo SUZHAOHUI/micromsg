@@ -10,6 +10,113 @@ from protocal import protocal
 from get_prepay_id import trans_xml_to_dict
 
 
+
+#注册企业
+def company_register():
+    if request.headers.get('Content-Type') == 'application/json':
+        if request.method=='GET':
+            js_user= request.get_json()
+        else:
+            js_user=request.json
+    else:
+        if request.method=='GET':
+            js_user = request.args.to_dict()
+        else:
+            js_user = json.loads(request.data.decode('utf8'))
+
+    cName = js_user['cName']
+    businessLicence=js_user['businessLicence']
+    socialCode = js_user['socialCode']
+    legalperson = js_user['legalperson']
+    IdCardNumber = js_user['IdCardNumber']
+
+
+    companyID = sb.session.execute("SELECT id FROM company where c_name='{}' and legalperson is not null".format(cName)).fetchone()
+    if companyID:
+        #已注册该公司
+        rs = json.dumps({"result": 1, 'msg': "The enterprise has been registered"})
+        return make_response(rs)
+
+    if not businessLicence or not socialCode or not legalperson:
+        status = "T"
+    else :
+        status="V"
+
+
+    # 未注册该公司则继续
+    companyIDS = sb.session.execute("SELECT id FROM company where c_name='{}' and legalperson is null".format(cName)).fetchone()
+    date_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    if not companyIDS :
+        sql = """INSERT INTO company (c_name,status,status_date,state,state_date,create_date,id_card_number,business_licence) VALUES ('{}','{}','{}','M','{}','{}','{}','{}')"""
+        sb.session.execute(sql.format(cName,status,date_time,date_time,date_time,IdCardNumber,businessLicence))
+    else :
+        sql = """UPDATE  company SET status='{}',status_date='{}',state='M',state_date='{}',create_date='{}',id_card_number='{}',legalperson='{}',business_licence='{}' where c_name='{}'"""
+        sb.session.execute(sql.format(status, date_time, date_time, date_time, IdCardNumber, legalperson, businessLicence, cName))
+
+
+    rs = json.dumps({"result": 0, 'msg': "Enterprise registration success"})
+    return make_response(rs)
+
+
+
+
+#企业联系人注册
+def user_register():
+
+    if request.headers.get('Content-Type') == 'application/json':
+        if request.method=='GET':
+            js_user= request.get_json()
+        else:
+            js_user=request.json
+    else:
+        if request.method=='GET':
+            js_user = request.args.to_dict()
+        else:
+            js_user = json.loads(request.data.decode('utf8'))
+
+    cName = js_user['cName']
+    name = js_user['name']
+    tel = js_user['tel']
+    password = js_user['password']
+    loginpassword = DesEncrypt(password)
+    sloginpassword = loginpassword.decode()
+
+    userTel = sb.session.execute("SELECT tel FROM user where tel='{}'".format(tel)).fetchone()
+    if userTel:
+        #该手机号已注册的情况
+        usertel = userTel[0]
+        rs = json.dumps({"result": 1, 'msg': "The phone number has been registered"})
+        return make_response(rs)
+
+
+    companyID = sb.session.execute("SELECT id FROM company where c_name='{}' ".format(cName)).fetchone()
+    if companyID:
+        #已注册该公司
+        companyId = companyID[0]
+
+    else:
+        #未注册该公司
+        date_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        sql = """INSERT INTO company (c_name,status,status_date,state,state_date,linkman,linktel,create_date,appkey) VALUES ('{}','T','{}','M','{}','{}','{}','{}','000000')"""
+        sb.session.execute(sql.format(cName, date_time, date_time, name, tel, date_time))
+
+        companyID = sb.session.execute("SELECT id FROM company where c_name='{}' ".format(cName)).fetchone()
+        companyId = companyID[0]
+
+
+   #未注册则继续
+
+    status_date = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    logging.info("""INSERT INTO user (company_id,tel,name,password,state,status,duty,status_date,mode,pay_method) VALUES ('{}','{}','{}','{}','N','I','企业联系人','{}','axb','1')""". \
+                 format(companyId, tel, name, sloginpassword, status_date))
+
+    sql = """INSERT INTO user (company_id,tel,name,password,state,status,duty,status_date,mode,pay_method) VALUES ('{}','{}','{}','{}','N','I','企业联系人','{}','axb','1')"""
+    sb.session.execute(sql.format(companyId, tel,
+        name,sloginpassword,status_date))
+
+    rs = json.dumps({"result": 0, 'msg': "Registration success"})
+    return make_response(rs)
+
 def user_login():
     dd={}
     if request.headers.get('Content-Type') == 'application/json':
@@ -51,8 +158,14 @@ def user_login():
         else:
             rs = json.dumps({"result": 1})
             return make_response(rs)
-        appkey=sb.session.execute("SELECT VALUE FROM parameter where parameter_id=900").fetchone()
-        mode = sb.session.execute("SELECT VALUE FROM parameter where parameter_id=0").fetchone()
+        # appkey=sb.session.execute("SELECT VALUE FROM parameter where parameter_id=900").fetchone()
+        # mode = sb.session.execute("SELECT VALUE FROM parameter where parameter_id=0").fetchone()
+
+        companyId = sb.session.execute("SELECT company_id FROM user where user_id='{}'".format(userid)).fetchone()
+        companyId=companyId[0]
+        appkey = sb.session.execute("SELECT appkey FROM company where id='{}'".format(companyId)).fetchone()
+        mode = sb.session.execute("SELECT mode FROM user where user_id='{}'".format(userid)).fetchone()
+
         appkey=appkey[0]
         mode=mode[0]
         appid=rd.hget('ac_auth:{}'.format(appkey),'appid')
@@ -87,6 +200,9 @@ def user_login():
     finally:
         sb.session.close()
     return make_response(rs)
+
+
+
 
 def changePwd():
 
@@ -349,8 +465,8 @@ def get_customer():
             custinfo=sb.session.execute('''select c.name,c.tel,c.acms,a.unsubts
                                            from customer c
                                            left join acms a on a.acms=c.acms
-                                           where c.user_id={} and c.tel like '%{}%' and c.source_id=3'''
-                                        .format(userid,phone))
+                                           where c.user_id={} and (c.tel like '%{}%' or c.name like '%{}%') and c.source_id=3'''
+                                        .format(userid,phone,phone))
         if letter:
             custinfo=sb.session.execute('''
                                         select g.name,g.tel,g.acms,a.unsubts from
@@ -411,10 +527,10 @@ def find_cdr():
                                         on cc.otherms=c.tel  and
                                         date(cc.call_time)>=DATE_SUB(CURDATE(), INTERVAL 1 week) and cc.prtms='{}'
                                         left join area a on a.number=left(cc.otherms,7)
-                                        where cc.call_type in ('0','1','128') and (length(cc.otherms)>6 and  length(cc.otherms)<12)
+                                        where cc.call_type in ('0','1','128') and (length(cc.otherms)>6 and  length(cc.otherms)<12) and cc.prtms = '{}'
                                         order by cc.call_time desc
 
-                           '''.format(userid,msisdn)))
+                           '''.format(userid,msisdn,msisdn)))
         call_record=sb.session.execute('''
                                         select  case when c.name is  null then cc.otherms else c.name end as 'name',
                                         cc.otherms,date(cc.call_time),cc.call_time,cc.release_time,
@@ -425,9 +541,9 @@ def find_cdr():
                                         on cc.otherms=c.tel  and
                                         date(cc.call_time)>=DATE_SUB(CURDATE(), INTERVAL 1 week) and cc.prtms='{}'
                                         left join area a on a.number=left(cc.otherms,7)
-                                        where cc.call_type in ('0','1','128') and (length(cc.otherms)>6 and  length(cc.otherms)<12)
+                                        where cc.call_type in ('0','1','128') and (length(cc.otherms)>6 and  length(cc.otherms)<12) and cc.prtms = '{}'
                                         order by cc.call_time desc
-                           '''.format(userid,msisdn))
+                           '''.format(userid,msisdn,msisdn))
 
         d_calls=[]
         j=0
@@ -485,8 +601,12 @@ def get_userinfo():
     username=checkinfo['username']
     logging.info(userid)
     try:
-        company=sb.session.execute("select value from parameter where parameter_id=901").fetchone()
-        company=company[0]
+        #company=sb.session.execute("select value from parameter where parameter_id=901").fetchone()
+        #company=company[0]
+        companyId = sb.session.execute("SELECT company_id FROM user where user_id='{}'".format(userid)).fetchone()
+        companyId=companyId[0]
+        company = sb.session.execute("SELECT c_name FROM company where id='{}'".format(companyId)).fetchone()
+        company = company[0]
         user_info=sb.session.execute('''select a.acms from user u,acms a,user_acms_rela uar
                                where uar.user_id=u.user_id and uar.acms_id=a.acms_id and uar.state='V' and u.user_id={};
                           '''.format(userid))
@@ -779,6 +899,7 @@ def get_owner_acms():
 
 
 def weixin_notify():
+    key = '6XlblatoOeCriipz7lkAgiSH2RI0rk8k'
     if request.method=='GET':
         try:
             js_notify = request.data.decode('gbk')
@@ -789,7 +910,7 @@ def weixin_notify():
     logging.info(js_notify)
     data=trans_xml_to_dict(js_notify)
     sign_r=data['sign']
-    sign_l= pay_sign(data)
+    sign_l= pay_sign(data,key)
     logging.info('sign_r={},sign_l={}'.format(sign_l,sign_r))
     if sign_l==sign_r:
         if data['result_code']=='SUCCESS' and data['return_code']=='SUCCESS':
@@ -800,9 +921,10 @@ def weixin_notify():
                                       where out_trade_no='{}'
                                    '''.format(data['out_trade_no']))
                 sb.session.execute('''
-                           update acms
+                           update acms,payment
                            set unsubts=(select date_add(ifnull(unsubts,now()), \
-                           interval (select days from payment where acms.acms=payment.acms and payment.out_trade_no='{}') day));
+                           interval payment.days  day))
+                           where acms.acms=payment.acms and payment.out_trade_no='{}'
                             '''.format(data['out_trade_no']))
                 sb.session.commit()
             except Exception as ex:
