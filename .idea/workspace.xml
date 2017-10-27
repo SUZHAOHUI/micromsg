@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f7d4ef-3a57-441c-8138-12fc3b5c88c2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bind_views.py" afterPath="$PROJECT_DIR$/bind_views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common.py" afterPath="$PROJECT_DIR$/common.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.py" afterPath="$PROJECT_DIR$/database.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/mmi.log" afterPath="$PROJECT_DIR$/log/mmi.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmi.py" afterPath="$PROJECT_DIR$/mmi.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/micromsg$database.coverage" NAME="database Coverage Results" MODIFIED="1502637294654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/micromsg$micromsg.coverage" NAME="micromsg Coverage Results" MODIFIED="1508927654051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/micromsg$micromsg.coverage" NAME="micromsg Coverage Results" MODIFIED="1509096996021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/micromsg$test_xml.coverage" NAME="test_xml Coverage Results" MODIFIED="1503282941498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$common.coverage" NAME="common Coverage Results" MODIFIED="1502530414084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/micromsg$get_xml.coverage" NAME="get_xml Coverage Results" MODIFIED="1503335892601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -48,70 +47,10 @@
       <file leaf-file-name="mmi.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mmi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+            <state relative-caret-position="95">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1508915243547" expanded="true" signature="965:1004" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="965:1009" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="965:1033" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="1384:1424" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="1384:1448" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="1587:1743" ph="INSERT INTO company... " />
-                <marker date="1508915243547" expanded="true" signature="1887:2055" ph="UPDATE compa... " />
-                <marker date="1508915243547" expanded="true" signature="2922:2957" ph="SELECT tel F... user" />
-                <marker date="1508915243547" expanded="true" signature="3205:3245" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="3205:3246" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="3459:3614" ph="INSERT INTO company... " />
-                <marker date="1508915243547" expanded="true" signature="3749:3786" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="3749:3788" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="3749:3789" ph="SELECT id FR... company" />
-                <marker date="1508915243547" expanded="true" signature="3957:4110" ph="INSERT INTO user... " />
-                <marker date="1508915243547" expanded="true" signature="4207:4360" ph="INSERT INTO user... " />
-                <marker date="1508915243547" expanded="true" signature="5088:5156" ph="SELECT name,... user" />
-                <marker date="1508915243547" expanded="true" signature="5254:5323" ph="SELECT name,... user" />
-                <marker date="1508915243547" expanded="true" signature="6113:6163" ph="SELECT VALUE... parameter" />
-                <marker date="1508915243547" expanded="true" signature="6214:6262" ph="SELECT VALUE... parameter" />
-                <marker date="1508915243547" expanded="true" signature="6317:6363" ph="SELECT compa... user" />
-                <marker date="1508915243547" expanded="true" signature="6460:6500" ph="SELECT appke... company" />
-                <marker date="1508915243547" expanded="true" signature="6567:6607" ph="SELECT mode user" />
-                <marker date="1508915243547" expanded="true" signature="8782:8822" ph="update user " />
-                <marker date="1508915243547" expanded="true" signature="8886:8926" ph="update user " />
-                <marker date="1508915243547" expanded="true" signature="11205:11512" ph="insert into customer... " />
-                <marker date="1508915243547" expanded="true" signature="11380:11500" ph="select unsub... acms" />
-                <marker date="1508915243547" expanded="true" signature="12869:12919" ph="delete from " />
-                <marker date="1508915243547" expanded="true" signature="14694:14753" ph="update custo... " />
-                <marker date="1508915243547" expanded="true" signature="15286:15345" ph="update custo... " />
-                <marker date="1508915243547" expanded="true" signature="15457:15516" ph="update custo... " />
-                <marker date="1508915243547" expanded="true" signature="16932:17167" ph="select c.nam... customer" />
-                <marker date="1508915243547" expanded="true" signature="16932:17230" ph="select c.nam... customer" />
-                <marker date="1508915243547" expanded="true" signature="17406:17975" ph="select g.nam... name" />
-                <marker date="1508915243547" expanded="true" signature="17489:17903" ph="SELECT c.nam... customer" />
-                <marker date="1508915243547" expanded="true" signature="18127:18377" ph="select c.nam... customer" />
-                <marker date="1508915243547" expanded="true" signature="19436:20462" ph="select case " />
-                <marker date="1508915243547" expanded="true" signature="20609:21635" ph="select case " />
-                <marker date="1508915243547" expanded="true" signature="23511:23557" ph="SELECT compa... user" />
-                <marker date="1508915243547" expanded="true" signature="23655:23695" ph="SELECT c_nam... company" />
-                <marker date="1508915243547" expanded="true" signature="23796:23965" ph="select a.acm... user" />
-                <marker date="1508915243547" expanded="true" signature="28726:28859" ph="insert into micro_sms... " />
-                <marker date="1508915243547" expanded="true" signature="30495:31049" ph="select ms.ac... micro_sms" />
-                <marker date="1508915243547" expanded="true" signature="30671:30754" ph="select peer_... micro_sms" />
-                <marker date="1508915243547" expanded="true" signature="31133:31439" ph="select ms.ac... micro_sms" />
-                <marker date="1508915243547" expanded="true" signature="33135:33539" ph="select a.acm... user_acms_rela" />
-                <marker date="1508915243547" expanded="true" signature="34916:35014" ph="update payme... " />
-                <marker date="1508915243547" expanded="true" signature="35150:35392" ph="update acms " />
               </folding>
             </state>
           </provider>
@@ -120,61 +59,83 @@
       <file leaf-file-name="bind_views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bind_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="211" column="26" lean-forward="true" selection-start-line="211" selection-start-column="26" selection-end-line="211" selection-end-column="26" />
+            <state relative-caret-position="417">
+              <caret line="173" column="36" lean-forward="true" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1508928185362" expanded="true" signature="1487:1703" ph="select c.cit... acms" />
-                <marker date="1508928185362" expanded="true" signature="2910:3082" ph="select DISTI... acms" />
-                <marker date="1508928185362" expanded="true" signature="5687:5772" ph="update acms " />
-                <marker date="1508928185362" expanded="true" signature="5806:5989" ph="insert into user_acms_rela... " />
-                <marker date="1508928185362" expanded="true" signature="5931:5971" ph="SELECT acms_... acms" />
-                <marker date="1508928185362" expanded="true" signature="6023:6155" ph="insert into subs_rela... " />
-                <marker date="1508928185362" expanded="true" signature="8014:8099" ph="update acms " />
-                <marker date="1508928185362" expanded="true" signature="8133:8302" ph="update user_... " />
-                <marker date="1508928185362" expanded="true" signature="8261:8301" ph="SELECT acms_... acms" />
-                <marker date="1508928185362" expanded="true" signature="8336:8426" ph="update subs_... " />
-                <marker date="1508928185362" expanded="true" signature="8427:8428" ph="insert into subs_rela... " />
-                <marker date="1508928185362" expanded="true" signature="11658:11733" ph="select unsub... acms" />
-                <marker date="1508928185362" expanded="true" signature="15068:15201" ph="insert into payment... " />
-                <marker date="1508928185362" expanded="true" signature="15068:15210" ph="insert into payment... " />
-                <marker date="1508928185362" expanded="true" signature="16111:16169" ph="SELECT price... price" />
-                <marker date="1508928185362" expanded="true" signature="17216:17275" ph="select * fro... acms" />
-                <marker date="1508928185362" expanded="true" signature="17216:17277" ph="select * fro... acms" />
-                <marker date="1508928185362" expanded="true" signature="17216:17302" ph="select acms,... payment" />
-                <marker date="1508928185362" expanded="true" signature="17216:17319" ph="select * fro... acms" />
-                <marker date="1508928185362" expanded="true" signature="17223:17261" ph="insert into payment... " />
+                <marker date="1509109380547" expanded="true" signature="1487:1703" ph="select c.cit... acms" />
+                <marker date="1509109380547" expanded="true" signature="2908:2991" ph="select disti... acms" />
+                <marker date="1509109380547" expanded="true" signature="4504:4555" ph="select count... subs_rela" />
+                <marker date="1509109380547" expanded="true" signature="4504:4572" ph="SELECT compa... user" />
+                <marker date="1509109380547" expanded="true" signature="4504:4573" ph="select count... subs_rela" />
+                <marker date="1509109380547" expanded="true" signature="5974:6106" ph="update acms " />
+                <marker date="1509109380547" expanded="true" signature="6140:6323" ph="insert into user_acms_rela... " />
+                <marker date="1509109380547" expanded="true" signature="6265:6305" ph="SELECT acms_... acms" />
+                <marker date="1509109380547" expanded="true" signature="6357:6489" ph="insert into subs_rela... " />
+                <marker date="1509109380547" expanded="true" signature="8348:8433" ph="update acms " />
+                <marker date="1509109380547" expanded="true" signature="8467:8636" ph="update user_... " />
+                <marker date="1509109380547" expanded="true" signature="8595:8635" ph="SELECT acms_... acms" />
+                <marker date="1509109380547" expanded="true" signature="8670:8760" ph="update subs_... " />
+                <marker date="1509109380547" expanded="true" signature="10184:10220" ph="select a.uns... acms" />
+                <marker date="1509109380547" expanded="true" signature="10184:10221" ph="select count... " />
+                <marker date="1509109380547" expanded="true" signature="10184:10224" ph="select a.uns... acms" />
+                <marker date="1509109380547" expanded="true" signature="12582:12657" ph="select unsub... acms" />
+                <marker date="1509109380547" expanded="true" signature="15992:16134" ph="insert into payment... " />
+                <marker date="1509109380547" expanded="true" signature="17035:17093" ph="SELECT price... price" />
+                <marker date="1509109380547" expanded="true" signature="18140:18226" ph="select acms,... payment" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genericpath.py" pinned="false" current-in-tab="false">
-        <entry file="file://F:/Python/Python35/Lib/genericpath.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://F:/Python/Python35/Lib/site-packages/flask/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="1996" column="0" lean-forward="false" selection-start-line="1996" selection-start-column="0" selection-end-line="1996" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/611281145/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="132" column="4" lean-forward="false" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="265">
+              <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1509092806918" expanded="true" signature="965:1033" ph="SELECT id FR... company" />
+                <marker date="1509092806918" expanded="true" signature="1384:1448" ph="SELECT id FR... company" />
+                <marker date="1509092806918" expanded="true" signature="1587:1743" ph="INSERT INTO company... " />
+                <marker date="1509092806918" expanded="true" signature="1887:2055" ph="UPDATE compa... " />
+                <marker date="1509092806918" expanded="true" signature="2922:2957" ph="SELECT tel F... user" />
+                <marker date="1509092806918" expanded="true" signature="3205:3245" ph="SELECT id FR... company" />
+                <marker date="1509092806918" expanded="true" signature="3459:3614" ph="INSERT INTO company... " />
+                <marker date="1509092806918" expanded="true" signature="3749:3789" ph="SELECT id FR... company" />
+                <marker date="1509092806918" expanded="true" signature="3957:4110" ph="INSERT INTO user... " />
+                <marker date="1509092806918" expanded="true" signature="4207:4360" ph="INSERT INTO user... " />
+                <marker date="1509092806918" expanded="true" signature="5088:5156" ph="SELECT name,... user" />
+                <marker date="1509092806918" expanded="true" signature="5254:5323" ph="SELECT name,... user" />
+                <marker date="1509092806918" expanded="true" signature="6317:6363" ph="SELECT compa... user" />
+                <marker date="1509092806918" expanded="true" signature="6460:6500" ph="SELECT appke... company" />
+                <marker date="1509092806918" expanded="true" signature="6567:6607" ph="SELECT mode user" />
+                <marker date="1509092806918" expanded="true" signature="7166:7212" ph="SELECT pay_m... user" />
+                <marker date="1509092806918" expanded="true" signature="8953:8993" ph="update user " />
+                <marker date="1509092806918" expanded="true" signature="9057:9097" ph="update user " />
+                <marker date="1509092806918" expanded="true" signature="11376:11683" ph="insert into customer... " />
+                <marker date="1509092806918" expanded="true" signature="11551:11671" ph="select unsub... acms" />
+                <marker date="1509092806918" expanded="true" signature="13040:13090" ph="delete from " />
+                <marker date="1509092806918" expanded="true" signature="14865:14924" ph="update custo... " />
+                <marker date="1509092806918" expanded="true" signature="15457:15516" ph="update custo... " />
+                <marker date="1509092806918" expanded="true" signature="15628:15687" ph="update custo... " />
+                <marker date="1509092806918" expanded="true" signature="17103:17401" ph="select c.nam... customer" />
+                <marker date="1509092806918" expanded="true" signature="17577:18146" ph="select g.nam... name" />
+                <marker date="1509092806918" expanded="true" signature="17660:18074" ph="SELECT c.nam... customer" />
+                <marker date="1509092806918" expanded="true" signature="18298:18548" ph="select c.nam... customer" />
+                <marker date="1509092806918" expanded="true" signature="19607:20633" ph="select case " />
+                <marker date="1509092806918" expanded="true" signature="20780:21806" ph="select case " />
+                <marker date="1509092806918" expanded="true" signature="23682:23728" ph="SELECT compa... user" />
+                <marker date="1509092806918" expanded="true" signature="23826:23866" ph="SELECT c_nam... company" />
+                <marker date="1509092806918" expanded="true" signature="23967:24136" ph="select a.acm... user" />
+                <marker date="1509092806918" expanded="true" signature="28897:29030" ph="insert into micro_sms... " />
+                <marker date="1509092806918" expanded="true" signature="30666:31220" ph="select ms.ac... micro_sms" />
+                <marker date="1509092806918" expanded="true" signature="30842:30925" ph="select peer_... micro_sms" />
+                <marker date="1509092806918" expanded="true" signature="31304:31610" ph="select ms.ac... micro_sms" />
+                <marker date="1509092806918" expanded="true" signature="33306:33710" ph="select a.acm... user_acms_rela" />
+                <marker date="1509092806918" expanded="true" signature="35087:35185" ph="update payme... " />
+                <marker date="1509092806918" expanded="true" signature="35321:35563" ph="update acms,... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,28 +143,8 @@
       <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://F:/Python/Python35/Lib/site-packages/requests/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-335">
-              <caret line="867" column="8" lean-forward="false" selection-start-line="867" selection-start-column="8" selection-end-line="867" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send_sms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/send_sms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="158">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -221,7 +162,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>protocal</find>
       <find>for</find>
       <find>cdr</find>
       <find>mode</find>
@@ -251,6 +191,7 @@
       <find>find</find>
       <find>f_bind</find>
       <find>key</find>
+      <find>ifpay</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -269,7 +210,6 @@
         <option value="$PROJECT_DIR$/view.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/protocal.py" />
-        <option value="$PROJECT_DIR$/log/mmi.log" />
         <option value="$PROJECT_DIR$/test_xml.py" />
         <option value="$PROJECT_DIR$/get_xml.py" />
         <option value="$PROJECT_DIR$/get_prepay_id.py" />
@@ -278,10 +218,11 @@
         <option value="$PROJECT_DIR$/maintenance/dimission.py" />
         <option value="$PROJECT_DIR$/maintenance/perday.py" />
         <option value="$PROJECT_DIR$/database.py" />
-        <option value="$PROJECT_DIR$/mmi.py" />
         <option value="$PROJECT_DIR$/common.py" />
+        <option value="$PROJECT_DIR$/log/mmi.log" />
         <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/bind_views.py" />
+        <option value="$PROJECT_DIR$/mmi.py" />
       </list>
     </option>
   </component>
@@ -292,8 +233,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="513" />
-    <option name="y" value="33" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="944" />
     <option name="height" value="721" />
   </component>
@@ -312,8 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,6 +264,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -727,12 +668,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19515885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42833608" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -741,7 +690,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31630972" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17133443" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -752,24 +701,24 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42833608" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19515885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41680396" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31630972" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -807,14 +756,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bind_views.py</url>
-          <line>179</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -830,9 +772,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,9 +780,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -862,54 +800,46 @@
           <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1508915243547" expanded="true" signature="965:1004" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="965:1009" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="965:1033" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="1384:1424" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="1384:1448" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="1587:1743" ph="INSERT INTO company... " />
-            <marker date="1508915243547" expanded="true" signature="1887:2055" ph="UPDATE compa... " />
-            <marker date="1508915243547" expanded="true" signature="2922:2957" ph="SELECT tel F... user" />
-            <marker date="1508915243547" expanded="true" signature="3205:3245" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3205:3246" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3459:3614" ph="INSERT INTO company... " />
-            <marker date="1508915243547" expanded="true" signature="3749:3786" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3749:3788" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3749:3789" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3957:4110" ph="INSERT INTO user... " />
-            <marker date="1508915243547" expanded="true" signature="4207:4360" ph="INSERT INTO user... " />
-            <marker date="1508915243547" expanded="true" signature="5088:5156" ph="SELECT name,... user" />
-            <marker date="1508915243547" expanded="true" signature="5254:5323" ph="SELECT name,... user" />
-            <marker date="1508915243547" expanded="true" signature="6113:6163" ph="SELECT VALUE... parameter" />
-            <marker date="1508915243547" expanded="true" signature="6214:6262" ph="SELECT VALUE... parameter" />
-            <marker date="1508915243547" expanded="true" signature="6317:6363" ph="SELECT compa... user" />
-            <marker date="1508915243547" expanded="true" signature="6460:6500" ph="SELECT appke... company" />
-            <marker date="1508915243547" expanded="true" signature="6567:6607" ph="SELECT mode user" />
-            <marker date="1508915243547" expanded="true" signature="8782:8822" ph="update user " />
-            <marker date="1508915243547" expanded="true" signature="8886:8926" ph="update user " />
-            <marker date="1508915243547" expanded="true" signature="11205:11512" ph="insert into customer... " />
-            <marker date="1508915243547" expanded="true" signature="11380:11500" ph="select unsub... acms" />
-            <marker date="1508915243547" expanded="true" signature="12869:12919" ph="delete from " />
-            <marker date="1508915243547" expanded="true" signature="14694:14753" ph="update custo... " />
-            <marker date="1508915243547" expanded="true" signature="15286:15345" ph="update custo... " />
-            <marker date="1508915243547" expanded="true" signature="15457:15516" ph="update custo... " />
-            <marker date="1508915243547" expanded="true" signature="16932:17167" ph="select c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="16932:17230" ph="select c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="17406:17975" ph="select g.nam... name" />
-            <marker date="1508915243547" expanded="true" signature="17489:17903" ph="SELECT c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="18127:18377" ph="select c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="19436:20462" ph="select case " />
-            <marker date="1508915243547" expanded="true" signature="20609:21635" ph="select case " />
-            <marker date="1508915243547" expanded="true" signature="23511:23557" ph="SELECT compa... user" />
-            <marker date="1508915243547" expanded="true" signature="23655:23695" ph="SELECT c_nam... company" />
-            <marker date="1508915243547" expanded="true" signature="23796:23965" ph="select a.acm... user" />
-            <marker date="1508915243547" expanded="true" signature="28726:28859" ph="insert into micro_sms... " />
-            <marker date="1508915243547" expanded="true" signature="30495:31049" ph="select ms.ac... micro_sms" />
-            <marker date="1508915243547" expanded="true" signature="30671:30754" ph="select peer_... micro_sms" />
-            <marker date="1508915243547" expanded="true" signature="31133:31439" ph="select ms.ac... micro_sms" />
-            <marker date="1508915243547" expanded="true" signature="33135:33539" ph="select a.acm... user_acms_rela" />
-            <marker date="1508915243547" expanded="true" signature="34916:35014" ph="update payme... " />
-            <marker date="1508915243547" expanded="true" signature="35150:35392" ph="update acms " />
+            <marker date="1509092806918" expanded="true" signature="965:1033" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="1384:1448" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="1587:1743" ph="INSERT INTO company... " />
+            <marker date="1509092806918" expanded="true" signature="1887:2055" ph="UPDATE compa... " />
+            <marker date="1509092806918" expanded="true" signature="2922:2957" ph="SELECT tel F... user" />
+            <marker date="1509092806918" expanded="true" signature="3205:3245" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="3459:3614" ph="INSERT INTO company... " />
+            <marker date="1509092806918" expanded="true" signature="3749:3789" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="3957:4110" ph="INSERT INTO user... " />
+            <marker date="1509092806918" expanded="true" signature="4207:4360" ph="INSERT INTO user... " />
+            <marker date="1509092806918" expanded="true" signature="5088:5156" ph="SELECT name,... user" />
+            <marker date="1509092806918" expanded="true" signature="5254:5323" ph="SELECT name,... user" />
+            <marker date="1509092806918" expanded="true" signature="6317:6363" ph="SELECT compa... user" />
+            <marker date="1509092806918" expanded="true" signature="6460:6500" ph="SELECT appke... company" />
+            <marker date="1509092806918" expanded="true" signature="6567:6607" ph="SELECT mode user" />
+            <marker date="1509092806918" expanded="true" signature="7166:7212" ph="SELECT pay_m... user" />
+            <marker date="1509092806918" expanded="true" signature="8953:8993" ph="update user " />
+            <marker date="1509092806918" expanded="true" signature="9057:9097" ph="update user " />
+            <marker date="1509092806918" expanded="true" signature="11376:11683" ph="insert into customer... " />
+            <marker date="1509092806918" expanded="true" signature="11551:11671" ph="select unsub... acms" />
+            <marker date="1509092806918" expanded="true" signature="13040:13090" ph="delete from " />
+            <marker date="1509092806918" expanded="true" signature="14865:14924" ph="update custo... " />
+            <marker date="1509092806918" expanded="true" signature="15457:15516" ph="update custo... " />
+            <marker date="1509092806918" expanded="true" signature="15628:15687" ph="update custo... " />
+            <marker date="1509092806918" expanded="true" signature="17103:17401" ph="select c.nam... customer" />
+            <marker date="1509092806918" expanded="true" signature="17577:18146" ph="select g.nam... name" />
+            <marker date="1509092806918" expanded="true" signature="17660:18074" ph="SELECT c.nam... customer" />
+            <marker date="1509092806918" expanded="true" signature="18298:18548" ph="select c.nam... customer" />
+            <marker date="1509092806918" expanded="true" signature="19607:20633" ph="select case " />
+            <marker date="1509092806918" expanded="true" signature="20780:21806" ph="select case " />
+            <marker date="1509092806918" expanded="true" signature="23682:23728" ph="SELECT compa... user" />
+            <marker date="1509092806918" expanded="true" signature="23826:23866" ph="SELECT c_nam... company" />
+            <marker date="1509092806918" expanded="true" signature="23967:24136" ph="select a.acm... user" />
+            <marker date="1509092806918" expanded="true" signature="28897:29030" ph="insert into micro_sms... " />
+            <marker date="1509092806918" expanded="true" signature="30666:31220" ph="select ms.ac... micro_sms" />
+            <marker date="1509092806918" expanded="true" signature="30842:30925" ph="select peer_... micro_sms" />
+            <marker date="1509092806918" expanded="true" signature="31304:31610" ph="select ms.ac... micro_sms" />
+            <marker date="1509092806918" expanded="true" signature="33306:33710" ph="select a.acm... user_acms_rela" />
+            <marker date="1509092806918" expanded="true" signature="35087:35185" ph="update payme... " />
+            <marker date="1509092806918" expanded="true" signature="35321:35563" ph="update acms,... " />
           </folding>
         </state>
       </provider>
@@ -925,9 +855,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -935,9 +863,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -957,54 +883,46 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1508915243547" expanded="true" signature="965:1004" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="965:1009" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="965:1033" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="1384:1424" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="1384:1448" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="1587:1743" ph="INSERT INTO company... " />
-            <marker date="1508915243547" expanded="true" signature="1887:2055" ph="UPDATE compa... " />
-            <marker date="1508915243547" expanded="true" signature="2922:2957" ph="SELECT tel F... user" />
-            <marker date="1508915243547" expanded="true" signature="3205:3245" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3205:3246" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3459:3614" ph="INSERT INTO company... " />
-            <marker date="1508915243547" expanded="true" signature="3749:3786" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3749:3788" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3749:3789" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3957:4110" ph="INSERT INTO user... " />
-            <marker date="1508915243547" expanded="true" signature="4207:4360" ph="INSERT INTO user... " />
-            <marker date="1508915243547" expanded="true" signature="5088:5156" ph="SELECT name,... user" />
-            <marker date="1508915243547" expanded="true" signature="5254:5323" ph="SELECT name,... user" />
-            <marker date="1508915243547" expanded="true" signature="6113:6163" ph="SELECT VALUE... parameter" />
-            <marker date="1508915243547" expanded="true" signature="6214:6262" ph="SELECT VALUE... parameter" />
-            <marker date="1508915243547" expanded="true" signature="6317:6363" ph="SELECT compa... user" />
-            <marker date="1508915243547" expanded="true" signature="6460:6500" ph="SELECT appke... company" />
-            <marker date="1508915243547" expanded="true" signature="6567:6607" ph="SELECT mode user" />
-            <marker date="1508915243547" expanded="true" signature="8782:8822" ph="update user " />
-            <marker date="1508915243547" expanded="true" signature="8886:8926" ph="update user " />
-            <marker date="1508915243547" expanded="true" signature="11205:11512" ph="insert into customer... " />
-            <marker date="1508915243547" expanded="true" signature="11380:11500" ph="select unsub... acms" />
-            <marker date="1508915243547" expanded="true" signature="12869:12919" ph="delete from " />
-            <marker date="1508915243547" expanded="true" signature="14694:14753" ph="update custo... " />
-            <marker date="1508915243547" expanded="true" signature="15286:15345" ph="update custo... " />
-            <marker date="1508915243547" expanded="true" signature="15457:15516" ph="update custo... " />
-            <marker date="1508915243547" expanded="true" signature="16932:17167" ph="select c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="16932:17230" ph="select c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="17406:17975" ph="select g.nam... name" />
-            <marker date="1508915243547" expanded="true" signature="17489:17903" ph="SELECT c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="18127:18377" ph="select c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="19436:20462" ph="select case " />
-            <marker date="1508915243547" expanded="true" signature="20609:21635" ph="select case " />
-            <marker date="1508915243547" expanded="true" signature="23511:23557" ph="SELECT compa... user" />
-            <marker date="1508915243547" expanded="true" signature="23655:23695" ph="SELECT c_nam... company" />
-            <marker date="1508915243547" expanded="true" signature="23796:23965" ph="select a.acm... user" />
-            <marker date="1508915243547" expanded="true" signature="28726:28859" ph="insert into micro_sms... " />
-            <marker date="1508915243547" expanded="true" signature="30495:31049" ph="select ms.ac... micro_sms" />
-            <marker date="1508915243547" expanded="true" signature="30671:30754" ph="select peer_... micro_sms" />
-            <marker date="1508915243547" expanded="true" signature="31133:31439" ph="select ms.ac... micro_sms" />
-            <marker date="1508915243547" expanded="true" signature="33135:33539" ph="select a.acm... user_acms_rela" />
-            <marker date="1508915243547" expanded="true" signature="34916:35014" ph="update payme... " />
-            <marker date="1508915243547" expanded="true" signature="35150:35392" ph="update acms " />
+            <marker date="1509092806918" expanded="true" signature="965:1033" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="1384:1448" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="1587:1743" ph="INSERT INTO company... " />
+            <marker date="1509092806918" expanded="true" signature="1887:2055" ph="UPDATE compa... " />
+            <marker date="1509092806918" expanded="true" signature="2922:2957" ph="SELECT tel F... user" />
+            <marker date="1509092806918" expanded="true" signature="3205:3245" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="3459:3614" ph="INSERT INTO company... " />
+            <marker date="1509092806918" expanded="true" signature="3749:3789" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="3957:4110" ph="INSERT INTO user... " />
+            <marker date="1509092806918" expanded="true" signature="4207:4360" ph="INSERT INTO user... " />
+            <marker date="1509092806918" expanded="true" signature="5088:5156" ph="SELECT name,... user" />
+            <marker date="1509092806918" expanded="true" signature="5254:5323" ph="SELECT name,... user" />
+            <marker date="1509092806918" expanded="true" signature="6317:6363" ph="SELECT compa... user" />
+            <marker date="1509092806918" expanded="true" signature="6460:6500" ph="SELECT appke... company" />
+            <marker date="1509092806918" expanded="true" signature="6567:6607" ph="SELECT mode user" />
+            <marker date="1509092806918" expanded="true" signature="7166:7212" ph="SELECT pay_m... user" />
+            <marker date="1509092806918" expanded="true" signature="8953:8993" ph="update user " />
+            <marker date="1509092806918" expanded="true" signature="9057:9097" ph="update user " />
+            <marker date="1509092806918" expanded="true" signature="11376:11683" ph="insert into customer... " />
+            <marker date="1509092806918" expanded="true" signature="11551:11671" ph="select unsub... acms" />
+            <marker date="1509092806918" expanded="true" signature="13040:13090" ph="delete from " />
+            <marker date="1509092806918" expanded="true" signature="14865:14924" ph="update custo... " />
+            <marker date="1509092806918" expanded="true" signature="15457:15516" ph="update custo... " />
+            <marker date="1509092806918" expanded="true" signature="15628:15687" ph="update custo... " />
+            <marker date="1509092806918" expanded="true" signature="17103:17401" ph="select c.nam... customer" />
+            <marker date="1509092806918" expanded="true" signature="17577:18146" ph="select g.nam... name" />
+            <marker date="1509092806918" expanded="true" signature="17660:18074" ph="SELECT c.nam... customer" />
+            <marker date="1509092806918" expanded="true" signature="18298:18548" ph="select c.nam... customer" />
+            <marker date="1509092806918" expanded="true" signature="19607:20633" ph="select case " />
+            <marker date="1509092806918" expanded="true" signature="20780:21806" ph="select case " />
+            <marker date="1509092806918" expanded="true" signature="23682:23728" ph="SELECT compa... user" />
+            <marker date="1509092806918" expanded="true" signature="23826:23866" ph="SELECT c_nam... company" />
+            <marker date="1509092806918" expanded="true" signature="23967:24136" ph="select a.acm... user" />
+            <marker date="1509092806918" expanded="true" signature="28897:29030" ph="insert into micro_sms... " />
+            <marker date="1509092806918" expanded="true" signature="30666:31220" ph="select ms.ac... micro_sms" />
+            <marker date="1509092806918" expanded="true" signature="30842:30925" ph="select peer_... micro_sms" />
+            <marker date="1509092806918" expanded="true" signature="31304:31610" ph="select ms.ac... micro_sms" />
+            <marker date="1509092806918" expanded="true" signature="33306:33710" ph="select a.acm... user_acms_rela" />
+            <marker date="1509092806918" expanded="true" signature="35087:35185" ph="update payme... " />
+            <marker date="1509092806918" expanded="true" signature="35321:35563" ph="update acms,... " />
           </folding>
         </state>
       </provider>
@@ -1020,9 +938,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,9 +946,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,9 +964,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,9 +972,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,9 +990,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,9 +998,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,13 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/mmi.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/get_prepay_id.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1121">
@@ -1190,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6517">
           <caret line="346" column="0" lean-forward="false" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,15 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python/Python35/Lib/selectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,17 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <element signature="e#37#46#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python/Python35/Lib/site-packages/redis/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36765">
-          <caret line="1960" column="8" lean-forward="false" selection-start-line="1960" selection-start-column="8" selection-end-line="1960" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,50 +1121,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/Python/Python35/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="1996" column="0" lean-forward="false" selection-start-line="1996" selection-start-column="0" selection-end-line="1996" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/send_sms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="589">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/611281145/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="2508">
           <caret line="132" column="4" lean-forward="false" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://F:/Python/Python35/Lib/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
+        <state relative-caret-position="15846">
           <caret line="867" column="8" lean-forward="false" selection-start-line="867" selection-start-column="8" selection-end-line="867" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python/Python35/Lib/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1296,110 +1148,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="392" column="0" lean-forward="false" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python/Python35/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python/Python35/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="1996" column="0" lean-forward="false" selection-start-line="1996" selection-start-column="0" selection-end-line="1996" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python/Python35/Lib/selectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="314" column="0" lean-forward="false" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/mmi.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="1423" column="0" lean-forward="false" selection-start-line="1423" selection-start-column="0" selection-end-line="1423" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Python/Python35/Lib/site-packages/redis/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="1960" column="8" lean-forward="false" selection-start-line="1960" selection-start-column="8" selection-end-line="1960" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="265">
+          <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1508915243547" expanded="true" signature="965:1004" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="965:1009" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="965:1033" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="1384:1424" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="1384:1448" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="1587:1743" ph="INSERT INTO company... " />
-            <marker date="1508915243547" expanded="true" signature="1887:2055" ph="UPDATE compa... " />
-            <marker date="1508915243547" expanded="true" signature="2922:2957" ph="SELECT tel F... user" />
-            <marker date="1508915243547" expanded="true" signature="3205:3245" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3205:3246" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3459:3614" ph="INSERT INTO company... " />
-            <marker date="1508915243547" expanded="true" signature="3749:3786" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3749:3788" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3749:3789" ph="SELECT id FR... company" />
-            <marker date="1508915243547" expanded="true" signature="3957:4110" ph="INSERT INTO user... " />
-            <marker date="1508915243547" expanded="true" signature="4207:4360" ph="INSERT INTO user... " />
-            <marker date="1508915243547" expanded="true" signature="5088:5156" ph="SELECT name,... user" />
-            <marker date="1508915243547" expanded="true" signature="5254:5323" ph="SELECT name,... user" />
-            <marker date="1508915243547" expanded="true" signature="6113:6163" ph="SELECT VALUE... parameter" />
-            <marker date="1508915243547" expanded="true" signature="6214:6262" ph="SELECT VALUE... parameter" />
-            <marker date="1508915243547" expanded="true" signature="6317:6363" ph="SELECT compa... user" />
-            <marker date="1508915243547" expanded="true" signature="6460:6500" ph="SELECT appke... company" />
-            <marker date="1508915243547" expanded="true" signature="6567:6607" ph="SELECT mode user" />
-            <marker date="1508915243547" expanded="true" signature="8782:8822" ph="update user " />
-            <marker date="1508915243547" expanded="true" signature="8886:8926" ph="update user " />
-            <marker date="1508915243547" expanded="true" signature="11205:11512" ph="insert into customer... " />
-            <marker date="1508915243547" expanded="true" signature="11380:11500" ph="select unsub... acms" />
-            <marker date="1508915243547" expanded="true" signature="12869:12919" ph="delete from " />
-            <marker date="1508915243547" expanded="true" signature="14694:14753" ph="update custo... " />
-            <marker date="1508915243547" expanded="true" signature="15286:15345" ph="update custo... " />
-            <marker date="1508915243547" expanded="true" signature="15457:15516" ph="update custo... " />
-            <marker date="1508915243547" expanded="true" signature="16932:17167" ph="select c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="16932:17230" ph="select c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="17406:17975" ph="select g.nam... name" />
-            <marker date="1508915243547" expanded="true" signature="17489:17903" ph="SELECT c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="18127:18377" ph="select c.nam... customer" />
-            <marker date="1508915243547" expanded="true" signature="19436:20462" ph="select case " />
-            <marker date="1508915243547" expanded="true" signature="20609:21635" ph="select case " />
-            <marker date="1508915243547" expanded="true" signature="23511:23557" ph="SELECT compa... user" />
-            <marker date="1508915243547" expanded="true" signature="23655:23695" ph="SELECT c_nam... company" />
-            <marker date="1508915243547" expanded="true" signature="23796:23965" ph="select a.acm... user" />
-            <marker date="1508915243547" expanded="true" signature="28726:28859" ph="insert into micro_sms... " />
-            <marker date="1508915243547" expanded="true" signature="30495:31049" ph="select ms.ac... micro_sms" />
-            <marker date="1508915243547" expanded="true" signature="30671:30754" ph="select peer_... micro_sms" />
-            <marker date="1508915243547" expanded="true" signature="31133:31439" ph="select ms.ac... micro_sms" />
-            <marker date="1508915243547" expanded="true" signature="33135:33539" ph="select a.acm... user_acms_rela" />
-            <marker date="1508915243547" expanded="true" signature="34916:35014" ph="update payme... " />
-            <marker date="1508915243547" expanded="true" signature="35150:35392" ph="update acms " />
+            <marker date="1509092806918" expanded="true" signature="965:1033" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="1384:1448" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="1587:1743" ph="INSERT INTO company... " />
+            <marker date="1509092806918" expanded="true" signature="1887:2055" ph="UPDATE compa... " />
+            <marker date="1509092806918" expanded="true" signature="2922:2957" ph="SELECT tel F... user" />
+            <marker date="1509092806918" expanded="true" signature="3205:3245" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="3459:3614" ph="INSERT INTO company... " />
+            <marker date="1509092806918" expanded="true" signature="3749:3789" ph="SELECT id FR... company" />
+            <marker date="1509092806918" expanded="true" signature="3957:4110" ph="INSERT INTO user... " />
+            <marker date="1509092806918" expanded="true" signature="4207:4360" ph="INSERT INTO user... " />
+            <marker date="1509092806918" expanded="true" signature="5088:5156" ph="SELECT name,... user" />
+            <marker date="1509092806918" expanded="true" signature="5254:5323" ph="SELECT name,... user" />
+            <marker date="1509092806918" expanded="true" signature="6317:6363" ph="SELECT compa... user" />
+            <marker date="1509092806918" expanded="true" signature="6460:6500" ph="SELECT appke... company" />
+            <marker date="1509092806918" expanded="true" signature="6567:6607" ph="SELECT mode user" />
+            <marker date="1509092806918" expanded="true" signature="7166:7212" ph="SELECT pay_m... user" />
+            <marker date="1509092806918" expanded="true" signature="8953:8993" ph="update user " />
+            <marker date="1509092806918" expanded="true" signature="9057:9097" ph="update user " />
+            <marker date="1509092806918" expanded="true" signature="11376:11683" ph="insert into customer... " />
+            <marker date="1509092806918" expanded="true" signature="11551:11671" ph="select unsub... acms" />
+            <marker date="1509092806918" expanded="true" signature="13040:13090" ph="delete from " />
+            <marker date="1509092806918" expanded="true" signature="14865:14924" ph="update custo... " />
+            <marker date="1509092806918" expanded="true" signature="15457:15516" ph="update custo... " />
+            <marker date="1509092806918" expanded="true" signature="15628:15687" ph="update custo... " />
+            <marker date="1509092806918" expanded="true" signature="17103:17401" ph="select c.nam... customer" />
+            <marker date="1509092806918" expanded="true" signature="17577:18146" ph="select g.nam... name" />
+            <marker date="1509092806918" expanded="true" signature="17660:18074" ph="SELECT c.nam... customer" />
+            <marker date="1509092806918" expanded="true" signature="18298:18548" ph="select c.nam... customer" />
+            <marker date="1509092806918" expanded="true" signature="19607:20633" ph="select case " />
+            <marker date="1509092806918" expanded="true" signature="20780:21806" ph="select case " />
+            <marker date="1509092806918" expanded="true" signature="23682:23728" ph="SELECT compa... user" />
+            <marker date="1509092806918" expanded="true" signature="23826:23866" ph="SELECT c_nam... company" />
+            <marker date="1509092806918" expanded="true" signature="23967:24136" ph="select a.acm... user" />
+            <marker date="1509092806918" expanded="true" signature="28897:29030" ph="insert into micro_sms... " />
+            <marker date="1509092806918" expanded="true" signature="30666:31220" ph="select ms.ac... micro_sms" />
+            <marker date="1509092806918" expanded="true" signature="30842:30925" ph="select peer_... micro_sms" />
+            <marker date="1509092806918" expanded="true" signature="31304:31610" ph="select ms.ac... micro_sms" />
+            <marker date="1509092806918" expanded="true" signature="33306:33710" ph="select a.acm... user_acms_rela" />
+            <marker date="1509092806918" expanded="true" signature="35087:35185" ph="update payme... " />
+            <marker date="1509092806918" expanded="true" signature="35321:35563" ph="update acms,... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bind_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="211" column="26" lean-forward="true" selection-start-line="211" selection-start-column="26" selection-end-line="211" selection-end-column="26" />
+        <state relative-caret-position="417">
+          <caret line="173" column="36" lean-forward="true" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1508928185362" expanded="true" signature="1487:1703" ph="select c.cit... acms" />
-            <marker date="1508928185362" expanded="true" signature="2910:3082" ph="select DISTI... acms" />
-            <marker date="1508928185362" expanded="true" signature="5687:5772" ph="update acms " />
-            <marker date="1508928185362" expanded="true" signature="5806:5989" ph="insert into user_acms_rela... " />
-            <marker date="1508928185362" expanded="true" signature="5931:5971" ph="SELECT acms_... acms" />
-            <marker date="1508928185362" expanded="true" signature="6023:6155" ph="insert into subs_rela... " />
-            <marker date="1508928185362" expanded="true" signature="8014:8099" ph="update acms " />
-            <marker date="1508928185362" expanded="true" signature="8133:8302" ph="update user_... " />
-            <marker date="1508928185362" expanded="true" signature="8261:8301" ph="SELECT acms_... acms" />
-            <marker date="1508928185362" expanded="true" signature="8336:8426" ph="update subs_... " />
-            <marker date="1508928185362" expanded="true" signature="8427:8428" ph="insert into subs_rela... " />
-            <marker date="1508928185362" expanded="true" signature="11658:11733" ph="select unsub... acms" />
-            <marker date="1508928185362" expanded="true" signature="15068:15201" ph="insert into payment... " />
-            <marker date="1508928185362" expanded="true" signature="15068:15210" ph="insert into payment... " />
-            <marker date="1508928185362" expanded="true" signature="16111:16169" ph="SELECT price... price" />
-            <marker date="1508928185362" expanded="true" signature="17216:17275" ph="select * fro... acms" />
-            <marker date="1508928185362" expanded="true" signature="17216:17277" ph="select * fro... acms" />
-            <marker date="1508928185362" expanded="true" signature="17216:17302" ph="select acms,... payment" />
-            <marker date="1508928185362" expanded="true" signature="17216:17319" ph="select * fro... acms" />
-            <marker date="1508928185362" expanded="true" signature="17223:17261" ph="insert into payment... " />
+            <marker date="1509109380547" expanded="true" signature="1487:1703" ph="select c.cit... acms" />
+            <marker date="1509109380547" expanded="true" signature="2908:2991" ph="select disti... acms" />
+            <marker date="1509109380547" expanded="true" signature="4504:4555" ph="select count... subs_rela" />
+            <marker date="1509109380547" expanded="true" signature="4504:4572" ph="SELECT compa... user" />
+            <marker date="1509109380547" expanded="true" signature="4504:4573" ph="select count... subs_rela" />
+            <marker date="1509109380547" expanded="true" signature="5974:6106" ph="update acms " />
+            <marker date="1509109380547" expanded="true" signature="6140:6323" ph="insert into user_acms_rela... " />
+            <marker date="1509109380547" expanded="true" signature="6265:6305" ph="SELECT acms_... acms" />
+            <marker date="1509109380547" expanded="true" signature="6357:6489" ph="insert into subs_rela... " />
+            <marker date="1509109380547" expanded="true" signature="8348:8433" ph="update acms " />
+            <marker date="1509109380547" expanded="true" signature="8467:8636" ph="update user_... " />
+            <marker date="1509109380547" expanded="true" signature="8595:8635" ph="SELECT acms_... acms" />
+            <marker date="1509109380547" expanded="true" signature="8670:8760" ph="update subs_... " />
+            <marker date="1509109380547" expanded="true" signature="10184:10220" ph="select a.uns... acms" />
+            <marker date="1509109380547" expanded="true" signature="10184:10221" ph="select count... " />
+            <marker date="1509109380547" expanded="true" signature="10184:10224" ph="select a.uns... acms" />
+            <marker date="1509109380547" expanded="true" signature="12582:12657" ph="select unsub... acms" />
+            <marker date="1509109380547" expanded="true" signature="15992:16134" ph="insert into payment... " />
+            <marker date="1509109380547" expanded="true" signature="17035:17093" ph="SELECT price... price" />
+            <marker date="1509109380547" expanded="true" signature="18140:18226" ph="select acms,... payment" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mmi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        <state relative-caret-position="95">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

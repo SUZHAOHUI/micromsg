@@ -177,10 +177,14 @@ def user_login():
         dd['appid']=appid
 
         logging.info('appkey={}, username={}, idcard={},appid={},mode={}'.format(appkey, username, idcard,appid,mode))
-        if appkey=='wywawj':
-            ifpay=0
-        else:
-            ifpay=1
+        # if appkey=='wywawj':
+        #     ifpay=1
+        # else:
+        #     ifpay=0
+        ifpay = sb.session.execute("SELECT pay_method FROM user where user_id='{}'".format(userid)).fetchone()
+        ifpay = ifpay[0]
+
+        dd['ifpay']=ifpay
         r={}
         r['result']=result
         r['appkey']=appkey

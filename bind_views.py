@@ -85,10 +85,7 @@ def get_city_list():
         rs = json.dumps({"result": 1, 'msg': 'token verify error'})
         return make_response(rs)
     try:
-        city_numbers=sb.session.execute("""  select DISTINCT c.city,a.code from acms a
-                               left join city c on a.code=c.code
-                               where a.state='U' and a.status='I'
-                            """)
+        city_numbers=sb.session.execute("""select distinct a.city, a. code from acms a where a.state = 'U' and a. status = 'I' """)
 
         l_city=[]
         for i in city_numbers:
@@ -138,6 +135,14 @@ def ax_bind():
         else:
             js_ax_bind = json.loads(request.data.decode('gbk'))
     acms=js_ax_bind.get('acms')
+
+    acount = sb.session.execute("select count(*) as count from subs_rela where anum='{}' and state='B'".format(prtms)).fetchone()
+    acount = acount[0]
+    if int(acount) > 1:
+        rs = json.dumps({"result": 2, 'msg': "The small number of bindings cannot be greater than 2!"})
+        logging.info("result: 2 The small number of bindings cannot be greater than 2!")
+        return  make_response(rs)
+
     if not acms:
         rs = json.dumps({"result": 1})
         return  make_response(rs)
@@ -155,7 +160,7 @@ def ax_bind():
             #                     values('{}','{}',{},'B','{}',{})\
             #                """.format(state_date,state_date,acms,useid,acms,state_date,useid,prtms,acms,useid,state_date,useid))
             sb.session.execute("""
-                                update acms set state='U',status='V',state_date='{}',status_date='{}' where acms='{}';
+                                update acms set state='U',status='V',state_date='{}',status_date='{}',unsubts=DATE_ADD(SYSDATE(),INTERVAL 10 MINUTE) where acms='{}';
                                 insert into user_acms_rela (user_id,acms_id,state,state_date,operator_id,purpose)
                                 values({},(SELECT acms_id from acms where acms='{}'),'V','{}',{},'O');
                                 insert into subs_rela (anum,xnum,user_id,state,state_date,operator)
@@ -213,10 +218,10 @@ def ax_unbind():
         state_date = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         try:
             sb.session.execute("""
-                                update acms set state='D',status='I',state_date='{}',status_date='{}' where acms='{}';
+                                update acms set state='U',status='I',state_date='{}',status_date='{}' where acms='{}';
                                 update user_acms_rela set state='I',state_date='{}'
                                 where state='V' and user_id={} and acms_id=(SELECT acms_id from acms where acms='{}');
-                                update subs_rela set state='U',state_date='{}' where anum='{}' and xnum='{}' and state='B';)
+                                update subs_rela set state='U',state_date='{}' where anum='{}' and xnum='{}' and state='B';
                            """.format(state_date, state_date, acms, state_date,useid, acms, state_date, prtms, acms))
             rs = json.dumps({'result': 0})
         except Exception as ex:
@@ -243,8 +248,11 @@ def vcall_req():
     if not checkinfo:
         rs = json.dumps({"result": 1, 'msg': 'token verify error'})
         return make_response(rs)
+
     appid=checkinfo['appid']
     appkey=checkinfo['appkey']
+    ifpay=checkinfo['ifpay']
+
     if request.headers.get('Content-Type') == 'application/json':
         if request.method=='GET':
             js_vcall_req= request.get_json()
@@ -256,6 +264,18 @@ def vcall_req():
         else:
             js_vcall_req= json.loads(request.data.decode('utf8'))
     acms=js_vcall_req.get('acms')
+
+    unsubts = sb.session.execute("select unsubts from acms where acms='{}'".format(acms)).fetchone()
+    unsubts = unsubts[0]
+    date_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    if not unsubts:
+        unsubts=datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    if str(unsubts) <= date_time and int(ifpay) == 0:
+        rs = json.dumps({"result": 2, 'msg': "The trumpet is out of validity, please recharge!"})
+        logging.info("result : 2  The trumpet is out of validity, please recharge!")
+        return  make_response(rs)
+
+
     calledms=js_vcall_req.get('calledms')
     if len(calledms) > 12 and calledms.find('-'):
         calledms=calledms.replace('-','')
